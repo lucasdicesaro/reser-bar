@@ -1,0 +1,16 @@
+#Documentacion de ReserBar
+
+= Introduction =
+
+Analisis, Diseño y documentacion referida al proyecto ReserBar
+
+
+= Details =
+
+El sitio dispone de:
+  * Minutas
+  * Requerimientos
+  * Estimaciones
+  * Project
+  * Casos de Uso
+  * Diagramas de Dominio, de Clase y de Secuencia
