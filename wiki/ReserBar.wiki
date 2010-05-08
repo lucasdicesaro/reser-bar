@@ -1,11 +1,11 @@
-#Documentacion de ReserBar
+#Documentación de ReserBar
 
-= Introduction =
+= Introducción =
 
 Analisis, Diseño y documentacion referida al proyecto ReserBar
 
 
-= Details =
+= Detalles =
 
 El sitio dispone de:
   * Minutas
