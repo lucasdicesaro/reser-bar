@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="windows-1252"?>
-<XMI xmi.version="1.1" xmlns:UML="omg.org/UML1.3" timestamp="2010-06-10 02:45:32">
+<XMI xmi.version="1.1" xmlns:UML="omg.org/UML1.3" timestamp="2010-06-10 02:48:07">
 	<XMI.header>
 		<XMI.documentation>
 			<XMI.exporter>Enterprise Architect</XMI.exporter>
@@ -18,7 +18,7 @@
 						<UML:TaggedValue tag="iscontrolled" value="TRUE"/>
 						<UML:TaggedValue tag="xmlpath" value="C:\proyectos\reser-bar\documentacion\Diseño\Sequence Model.xml"/>
 						<UML:TaggedValue tag="lastloaddate" value="2010-06-10 02:44:56"/>
-						<UML:TaggedValue tag="lastsavedate" value="2010-06-10 02:45:32"/>
+						<UML:TaggedValue tag="lastsavedate" value="2010-06-10 02:48:07"/>
 						<UML:TaggedValue tag="version" value="1.0"/>
 						<UML:TaggedValue tag="isprotected" value="FALSE"/>
 						<UML:TaggedValue tag="usedtd" value="FALSE"/>
@@ -245,7 +245,7 @@
 										<UML:TaggedValue tag="status" value="Proposed"/>
 										<UML:TaggedValue tag="ea_localid" value="359"/>
 										<UML:TaggedValue tag="ea_eleType" value="element"/>
-										<UML:TaggedValue tag="eventflags" value="LNK=7d8b;"/>
+										<UML:TaggedValue tag="eventflags" value="LNK=cfef;"/>
 										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=0;HSwimLanes=0;BorderStyle=0;"/>
 									</UML:ModelElement.taggedValue>
 								</UML:Actor>
@@ -297,7 +297,7 @@
 												<UML:TaggedValue tag="stereotype" value="boundary"/>
 												<UML:TaggedValue tag="ea_localid" value="361"/>
 												<UML:TaggedValue tag="ea_eleType" value="element"/>
-												<UML:TaggedValue tag="eventflags" value="LNK=7d8b;"/>
+												<UML:TaggedValue tag="eventflags" value="LNK=cfdf;"/>
 												<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=0;HSwimLanes=0;BorderStyle=0;"/>
 											</UML:ModelElement.taggedValue>
 										</UML:ClassifierRole>
@@ -365,6 +365,43 @@
 														<UML:TaggedValue tag="virtualInheritance" value="0"/>
 														<UML:TaggedValue tag="diagram" value="EAID_621F7DEB_0C8C_4d21_86E4_0B7B97D48EB6"/>
 														<UML:TaggedValue tag="mt" value="lucas"/>
+													</UML:ModelElement.taggedValue>
+												</UML:Message>
+												<UML:Message name="pepe" xmi.id="EAID_79C6443F_2136_4205_94F6_108F6E2432FD" visibility="public" sender="EAID_2537BB10_64F2_4f46_A6DB_A6FCC1B4EA07" receiver="EAID_B7E77E79_F0C9_415b_85AD_C94F32746496">
+													<UML:ModelElement.taggedValue>
+														<UML:TaggedValue tag="style" value="1"/>
+														<UML:TaggedValue tag="ea_type" value="Sequence"/>
+														<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
+														<UML:TaggedValue tag="linemode" value="1"/>
+														<UML:TaggedValue tag="linecolor" value="-1"/>
+														<UML:TaggedValue tag="linewidth" value="0"/>
+														<UML:TaggedValue tag="seqno" value="10"/>
+														<UML:TaggedValue tag="headStyle" value="0"/>
+														<UML:TaggedValue tag="lineStyle" value="0"/>
+														<UML:TaggedValue tag="privatedata1" value="Synchronous"/>
+														<UML:TaggedValue tag="privatedata2" value="retval=void;"/>
+														<UML:TaggedValue tag="privatedata3" value="Call"/>
+														<UML:TaggedValue tag="privatedata4" value="0"/>
+														<UML:TaggedValue tag="ea_localid" value="526"/>
+														<UML:TaggedValue tag="ea_sourceName" value="Comensal"/>
+														<UML:TaggedValue tag="ea_targetName" value="Login Screen"/>
+														<UML:TaggedValue tag="ea_sourceType" value="Actor"/>
+														<UML:TaggedValue tag="ea_targetType" value="Sequence"/>
+														<UML:TaggedValue tag="ea_sourceID" value="359"/>
+														<UML:TaggedValue tag="ea_targetID" value="361"/>
+														<UML:TaggedValue tag="src_visibility" value="Public"/>
+														<UML:TaggedValue tag="src_isOrdered" value="false"/>
+														<UML:TaggedValue tag="src_isNavigable" value="false"/>
+														<UML:TaggedValue tag="src_containment" value="Unspecified"/>
+														<UML:TaggedValue tag="dst_visibility" value="Public"/>
+														<UML:TaggedValue tag="dst_aggregation" value="0"/>
+														<UML:TaggedValue tag="dst_isOrdered" value="false"/>
+														<UML:TaggedValue tag="dst_isNavigable" value="true"/>
+														<UML:TaggedValue tag="dst_containment" value="Unspecified"/>
+														<UML:TaggedValue tag="privatedata5" value="$LLB=;LLT=;LMT=CX=100:CY=10:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LMB=;LRT=;LRB=;"/>
+														<UML:TaggedValue tag="virtualInheritance" value="0"/>
+														<UML:TaggedValue tag="diagram" value="EAID_621F7DEB_0C8C_4d21_86E4_0B7B97D48EB6"/>
+														<UML:TaggedValue tag="mt" value="pepe"/>
 													</UML:ModelElement.taggedValue>
 												</UML:Message>
 												<UML:Message name="login" xmi.id="EAID_8DBD2592_7124_4046_AE2A_352DDD23D649" visibility="public" sender="EAID_2537BB10_64F2_4f46_A6DB_A6FCC1B4EA07" receiver="EAID_B7E77E79_F0C9_415b_85AD_C94F32746496">
@@ -442,6 +479,43 @@
 														<UML:TaggedValue tag="stateflags" value="Activation=0;"/>
 														<UML:TaggedValue tag="virtualInheritance" value="0"/>
 														<UML:TaggedValue tag="diagram" value="EAID_621F7DEB_0C8C_4d21_86E4_0B7B97D48EB6"/>
+													</UML:ModelElement.taggedValue>
+												</UML:Message>
+												<UML:Message name="popo" xmi.id="EAID_54FC42D5_2B30_4f69_B8BC_E83EF90603D0" visibility="public" sender="EAID_B7E77E79_F0C9_415b_85AD_C94F32746496" receiver="EAID_2537BB10_64F2_4f46_A6DB_A6FCC1B4EA07">
+													<UML:ModelElement.taggedValue>
+														<UML:TaggedValue tag="style" value="1"/>
+														<UML:TaggedValue tag="ea_type" value="Sequence"/>
+														<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
+														<UML:TaggedValue tag="linemode" value="1"/>
+														<UML:TaggedValue tag="linecolor" value="-1"/>
+														<UML:TaggedValue tag="linewidth" value="0"/>
+														<UML:TaggedValue tag="seqno" value="11"/>
+														<UML:TaggedValue tag="headStyle" value="0"/>
+														<UML:TaggedValue tag="lineStyle" value="0"/>
+														<UML:TaggedValue tag="privatedata1" value="Synchronous"/>
+														<UML:TaggedValue tag="privatedata2" value="retval=void;"/>
+														<UML:TaggedValue tag="privatedata3" value="Call"/>
+														<UML:TaggedValue tag="privatedata4" value="1"/>
+														<UML:TaggedValue tag="ea_localid" value="527"/>
+														<UML:TaggedValue tag="ea_sourceName" value="Login Screen"/>
+														<UML:TaggedValue tag="ea_targetName" value="Comensal"/>
+														<UML:TaggedValue tag="ea_sourceType" value="Sequence"/>
+														<UML:TaggedValue tag="ea_targetType" value="Actor"/>
+														<UML:TaggedValue tag="ea_sourceID" value="361"/>
+														<UML:TaggedValue tag="ea_targetID" value="359"/>
+														<UML:TaggedValue tag="src_visibility" value="Public"/>
+														<UML:TaggedValue tag="src_isOrdered" value="false"/>
+														<UML:TaggedValue tag="src_isNavigable" value="false"/>
+														<UML:TaggedValue tag="src_containment" value="Unspecified"/>
+														<UML:TaggedValue tag="dst_visibility" value="Public"/>
+														<UML:TaggedValue tag="dst_aggregation" value="0"/>
+														<UML:TaggedValue tag="dst_isOrdered" value="false"/>
+														<UML:TaggedValue tag="dst_isNavigable" value="true"/>
+														<UML:TaggedValue tag="dst_containment" value="Unspecified"/>
+														<UML:TaggedValue tag="privatedata5" value="$LLB=;LLT=;LMT=CX=100:CY=10:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LMB=;LRT=;LRB=;"/>
+														<UML:TaggedValue tag="virtualInheritance" value="0"/>
+														<UML:TaggedValue tag="diagram" value="EAID_621F7DEB_0C8C_4d21_86E4_0B7B97D48EB6"/>
+														<UML:TaggedValue tag="mt" value="popo"/>
 													</UML:ModelElement.taggedValue>
 												</UML:Message>
 												<UML:Message xmi.id="EAID_FB3CBE8E_63DA_4a92_AC46_D1DBA3AEB249" visibility="public" sender="EAID_B7E77E79_F0C9_415b_85AD_C94F32746496" receiver="EAID_2537BB10_64F2_4f46_A6DB_A6FCC1B4EA07">
@@ -3281,6 +3355,8 @@
 				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;Path=;" subject="EAID_22934E92_07F2_4464_9475_33B4B1808375" style=";Hidden=0;"/>
 				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;Path=;" subject="EAID_1D0299C1_DB54_4309_8511_A31E3CF5EB49" style=";Hidden=0;"/>
 				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;Path=;" subject="EAID_FB3CBE8E_63DA_4a92_AC46_D1DBA3AEB249" style=";Hidden=0;"/>
+				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;Path=;" subject="EAID_79C6443F_2136_4205_94F6_108F6E2432FD" style=";Hidden=0;"/>
+				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;Path=;" subject="EAID_54FC42D5_2B30_4f69_B8BC_E83EF90603D0" style=";Hidden=0;"/>
 			</UML:Diagram.element>
 		</UML:Diagram>
 		<UML:Diagram name="reserva" xmi.id="EAID_9CA69004_1E68_49d3_861D_D23C33F2538C" diagramType="SequenceDiagram" owner="EAPK_D8A28ADC_C66B_4177_BA3E_9F2B116A30AD" toolName="Enterprise Architect 2.5">
