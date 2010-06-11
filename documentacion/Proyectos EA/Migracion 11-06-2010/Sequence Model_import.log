@@ -1,0 +1,41 @@
+
+Importing Model from XMI
+***** Root Package: Sequence Model *****
+Add Classifier: $help://use_case_model_pattern.htm
+Add Classifier: $help://usecasediagram.htm
+Add Classifier: Note
+Add Classifier: 
+Add Classifier: 
+Add Classifier: $help://actor.htm
+Add Classifier Role: login
+Add Classifier Role: reserva
+***** Append Package: login *****
+Add Classifier: Comensal
+Add Classifier Role: SecurityService
+Add Classifier Role: Login Screen
+Add Classifier Role: User
+***** Append Package: reserva *****
+Add Classifier: Comensal
+Add Classifier Role: EstablecimientoService
+Add Classifier Role: EstablecimientoService
+Add Classifier Role: Establecimiento
+Add Classifier Role: EstablecimientoController
+Add Classifier Role: PagoService
+Add Classifier Role: MailService
+Add Classifier Role: ReservaController
+Add Classifier Role: PantallaReserva
+Add Classifier Role: Establecimiento
+Add Classifier Role: Reserva
+Add Classifier Role: ReservaService
+***** Resolving Classifiers *****
+***** Resolving Ownerss *****
+***** Resolve Package Links *****
+***** Add Extensions ******
+***** Add Diagrams *****
+***** Resolving DiagramIDs *****
+***** Resolving Association Classes *****
+***** Resolving Parameter Types *****
+***** Resolving Attribute Types *****
+***** Resolving Note links *****
+***** Fixup external references *****
+Import Complete!

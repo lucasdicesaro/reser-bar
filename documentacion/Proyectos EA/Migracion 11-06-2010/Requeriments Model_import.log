@@ -1,0 +1,53 @@
+
+Importing Model from XMI
+***** Root Package: Requirements Model *****
+Add Classifier Role: Non-Functional Requirements
+Add Classifier Role: Functional Requirements
+***** Append Package: Functional Requirements *****
+Add Classifier: Note
+Add Classifier Role: User Interface
+Add Classifier Role: Features
+Add Classifier Role: Business Rules
+***** Append Package: Business Rules *****
+Add Classifier: Note
+Add Classifier Role: Requirement1
+***** Append Package: Features *****
+Add Classifier: Note
+Add Classifier Role: Feature1
+***** Append Package: User Interface *****
+Add Classifier: Note
+Add Classifier: Note
+Add Classifier: 
+Add Classifier: 
+Add Classifier Role: UI Control
+Add Classifier Role: Screen2
+Add Classifier Role: Screen1
+***** Append Package: Non-Functional Requirements *****
+Add Classifier: 
+Add Classifier: Note
+Add Classifier: 
+Add Classifier: 
+Add Classifier: 
+Add Classifier: 
+Add Classifier Role: Security
+Add Classifier Role: Persistence
+Add Classifier Role: Scalability
+Add Classifier Role: Transport
+Add Classifier Role: Performance
+***** Append Package: Performance *****
+***** Append Package: Scalability *****
+***** Append Package: Security *****
+***** Append Package: Persistence *****
+***** Append Package: Transport *****
+***** Resolving Classifiers *****
+***** Resolving Ownerss *****
+***** Resolve Package Links *****
+***** Add Extensions ******
+***** Add Diagrams *****
+***** Resolving DiagramIDs *****
+***** Resolving Association Classes *****
+***** Resolving Parameter Types *****
+***** Resolving Attribute Types *****
+***** Resolving Note links *****
+***** Fixup external references *****
+Import Complete!

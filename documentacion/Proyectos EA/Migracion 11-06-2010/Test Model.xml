@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!DOCTYPE XMI SYSTEM "UML_EA.dtd">
+<XMI xmi.version="1.1" xmlns:UML="omg.org/UML1.3" timestamp="2010-06-11 16:51:21">
+	<XMI.header>
+		<XMI.documentation>
+			<XMI.exporter>Enterprise Architect</XMI.exporter>
+			<XMI.exporterVersion>2.5</XMI.exporterVersion>
+		</XMI.documentation>
+	</XMI.header>
+	<XMI.content>
+		<UML:Model name="EA Model" xmi.id="MX_EAID_F5700360_8433_43e3_ABA1_39D08C108C66">
+			<UML:Namespace.ownedElement>
+				<UML:Class name="EARootClass" xmi.id="EAID_11111111_5487_4080_A7F4_41526CB0AA00" isRoot="true" isLeaf="false" isAbstract="false"/>
+				<UML:Package name="Test Model" xmi.id="EAPK_F5700360_8433_43e3_ABA1_39D08C108C66" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+					<UML:ModelElement.taggedValue>
+						<UML:TaggedValue tag="parent" value="EAID_047CEA91_6366_4fb4_80B9_25C0FADDAE17"/>
+						<UML:TaggedValue tag="ea_package_id" value="21"/>
+						<UML:TaggedValue tag="created" value="2010-04-24 16:30:25"/>
+						<UML:TaggedValue tag="modified" value="2010-04-24 16:30:25"/>
+						<UML:TaggedValue tag="iscontrolled" value="FALSE"/>
+						<UML:TaggedValue tag="lastloaddate" value="2010-04-24 16:30:25"/>
+						<UML:TaggedValue tag="lastsavedate" value="2010-04-24 16:30:25"/>
+						<UML:TaggedValue tag="isprotected" value="FALSE"/>
+						<UML:TaggedValue tag="usedtd" value="FALSE"/>
+						<UML:TaggedValue tag="logxml" value="FALSE"/>
+						<UML:TaggedValue tag="tpos" value="9"/>
+						<UML:TaggedValue tag="packageFlags" value="isModel=1;CRC=0;"/>
+						<UML:TaggedValue tag="batchsave" value="0"/>
+						<UML:TaggedValue tag="batchload" value="0"/>
+						<UML:TaggedValue tag="phase" value="1.0"/>
+						<UML:TaggedValue tag="status" value="Proposed"/>
+						<UML:TaggedValue tag="complexity" value="1"/>
+						<UML:TaggedValue tag="ea_stype" value="Public"/>
+						<UML:TaggedValue tag="tpos" value="9"/>
+					</UML:ModelElement.taggedValue>
+					<UML:Namespace.ownedElement>
+						<UML:Collaboration xmi.id="EAID_F5700360_8433_43e3_ABA1_39D08C108C66_Collaboration" name="Collaborations">
+							<UML:Namespace.ownedElement>
+								<UML:ClassifierRole name="Test Cases" xmi.id="EAID_18E5A686_3541_4ebc_A342_003FD264D67B" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Package"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="package" value="EAPK_F5700360_8433_43e3_ABA1_39D08C108C66"/>
+										<UML:TaggedValue tag="date_created" value="2006-01-05 13:06:26"/>
+										<UML:TaggedValue tag="date_modified" value="2006-01-05 13:06:26"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package2" value="EAID_18E5A686_3541_4ebc_A342_003FD264D67B"/>
+										<UML:TaggedValue tag="package_name" value="Test Model"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="2"/>
+										<UML:TaggedValue tag="ea_localid" value="23"/>
+										<UML:TaggedValue tag="ea_eleType" value="package"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=0;HSwimLanes=0;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="Test Plans" xmi.id="EAID_889E2908_C04C_4ad3_9179_33AAD89247A9" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Package"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="package" value="EAPK_F5700360_8433_43e3_ABA1_39D08C108C66"/>
+										<UML:TaggedValue tag="date_created" value="2006-01-05 13:05:53"/>
+										<UML:TaggedValue tag="date_modified" value="2006-01-05 13:05:53"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package2" value="EAID_889E2908_C04C_4ad3_9179_33AAD89247A9"/>
+										<UML:TaggedValue tag="package_name" value="Test Model"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="1"/>
+										<UML:TaggedValue tag="ea_localid" value="22"/>
+										<UML:TaggedValue tag="ea_eleType" value="package"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=0;HSwimLanes=0;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+							</UML:Namespace.ownedElement>
+							<UML:Collaboration.interaction/>
+						</UML:Collaboration>
+						<UML:Comment name="$help://testing_model_pattern.htm" xmi.id="EAID_2A5B5A13_602C_43ad_B10E_A565760DEB50" visibility="public" namespace="EAPK_F5700360_8433_43e3_ABA1_39D08C108C66">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="isSpecification" value="false"/>
+								<UML:TaggedValue tag="ea_stype" value="Text"/>
+								<UML:TaggedValue tag="ea_ntype" value="19"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="package" value="EAPK_F5700360_8433_43e3_ABA1_39D08C108C66"/>
+								<UML:TaggedValue tag="date_created" value="2005-12-21 11:38:35"/>
+								<UML:TaggedValue tag="date_modified" value="2006-01-06 15:59:30"/>
+								<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+								<UML:TaggedValue tag="tagged" value="0"/>
+								<UML:TaggedValue tag="package_name" value="Test Model"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="alias" value="Read about Testing in EA"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="ea_localid" value="75"/>
+								<UML:TaggedValue tag="ea_eleType" value="element"/>
+								<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=0;HSwimLanes=0;BorderStyle=0;"/>
+							</UML:ModelElement.taggedValue>
+						</UML:Comment>
+						<UML:Comment name="Note" xmi.id="EAID_9F9D3056_F9CA_48fe_B72E_BC7EFAAF8C6C" visibility="public" namespace="EAPK_F5700360_8433_43e3_ABA1_39D08C108C66">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="The Test Model describes and maintains a catalogue of tests, test plans and results that are executed against the current model."/>
+								<UML:TaggedValue tag="isSpecification" value="false"/>
+								<UML:TaggedValue tag="ea_stype" value="Note"/>
+								<UML:TaggedValue tag="ea_ntype" value="0"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="package" value="EAPK_F5700360_8433_43e3_ABA1_39D08C108C66"/>
+								<UML:TaggedValue tag="date_created" value="2005-11-20 09:35:57"/>
+								<UML:TaggedValue tag="date_modified" value="2005-11-20 09:36:43"/>
+								<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+								<UML:TaggedValue tag="tagged" value="0"/>
+								<UML:TaggedValue tag="package_name" value="Test Model"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="ea_localid" value="73"/>
+								<UML:TaggedValue tag="ea_eleType" value="element"/>
+								<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=0;HSwimLanes=0;BorderStyle=0;"/>
+							</UML:ModelElement.taggedValue>
+						</UML:Comment>
+						<UML:UseCase name="Test Case1" xmi.id="EAID_B8EEB261_4C99_4ad8_9DBA_8652A33FF2DC" visibility="public" namespace="EAPK_F5700360_8433_43e3_ABA1_39D08C108C66" isRoot="false" isLeaf="false" isAbstract="false">
+							<UML:ModelElement.stereotype>
+								<UML:Stereotype name="testcase"/>
+							</UML:ModelElement.stereotype>
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="isSpecification" value="false"/>
+								<UML:TaggedValue tag="ea_stype" value="UseCase"/>
+								<UML:TaggedValue tag="ea_ntype" value="0"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="package" value="EAPK_F5700360_8433_43e3_ABA1_39D08C108C66"/>
+								<UML:TaggedValue tag="date_created" value="2006-01-04 13:29:00"/>
+								<UML:TaggedValue tag="date_modified" value="2006-01-04 13:29:00"/>
+								<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+								<UML:TaggedValue tag="tagged" value="0"/>
+								<UML:TaggedValue tag="package_name" value="Test Model"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="stereotype" value="testcase"/>
+								<UML:TaggedValue tag="ea_localid" value="74"/>
+								<UML:TaggedValue tag="ea_eleType" value="element"/>
+								<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=0;HSwimLanes=0;BorderStyle=0;"/>
+								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={CCDE4717-2FD1-413c-A409-AAD9AF6AA47A}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$DES=@STEREO;Name=testcase;GUID={A400AAAF-5080-47cb-AB1C-995FDD8F5268};@ENDSTEREO;$DES;$CLT={B8EEB261-4C99-4ad8-9DBA-8652A33FF2DC}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+							</UML:ModelElement.taggedValue>
+						</UML:UseCase>
+						<UML:Package name="Test Plans" xmi.id="EAPK_889E2908_C04C_4ad3_9179_33AAD89247A9" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="parent" value="EAID_72DA0FB9_44C6_45c7_AE3D_E741271EA49F"/>
+								<UML:TaggedValue tag="created" value="2010-04-24 16:30:25"/>
+								<UML:TaggedValue tag="modified" value="2010-04-24 16:30:25"/>
+								<UML:TaggedValue tag="iscontrolled" value="FALSE"/>
+								<UML:TaggedValue tag="lastloaddate" value="2010-04-24 16:30:25"/>
+								<UML:TaggedValue tag="lastsavedate" value="2010-04-24 16:30:25"/>
+								<UML:TaggedValue tag="isprotected" value="FALSE"/>
+								<UML:TaggedValue tag="usedtd" value="FALSE"/>
+								<UML:TaggedValue tag="logxml" value="FALSE"/>
+								<UML:TaggedValue tag="tpos" value="1"/>
+								<UML:TaggedValue tag="batchsave" value="0"/>
+								<UML:TaggedValue tag="batchload" value="0"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="ea_stype" value="Public"/>
+							</UML:ModelElement.taggedValue>
+							<UML:Namespace.ownedElement>
+								<UML:Class name="Master Test Plan" xmi.id="EAID_B993851E_B25E_43a6_8DCF_2B60B1B0650F" visibility="public" namespace="EAPK_889E2908_C04C_4ad3_9179_33AAD89247A9" isRoot="false" isLeaf="false" isAbstract="false">
+									<UML:ModelElement.stereotype>
+										<UML:Stereotype name="document"/>
+									</UML:ModelElement.stereotype>
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Artifact"/>
+										<UML:TaggedValue tag="ea_ntype" value="1"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="package" value="EAPK_889E2908_C04C_4ad3_9179_33AAD89247A9"/>
+										<UML:TaggedValue tag="date_created" value="2006-01-18 14:24:59"/>
+										<UML:TaggedValue tag="date_modified" value="2006-01-18 14:25:16"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="Test Plans"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="object_style" value="MDoc=1;"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="stereotype" value="document"/>
+										<UML:TaggedValue tag="ea_localid" value="78"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=0;HSwimLanes=0;BorderStyle=0;"/>
+										<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={C6E53A17-2A0A-4a82-BB3B-7F9DC826A782}$XID;$NAM=CustomProperties$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$DES=@PROP=@NAME=fileName@ENDNAME;@TYPE=String@ENDTYPE;@VALU=@ENDVALU;@PRMT=@ENDPRMT;@ENDPROP;$DES;$CLT={B993851E-B25E-43a6-8DCF-2B60B1B0650F}$CLT;$ENDXREF;$XREFPROP=$XID={A02EFEBC-A7CA-43a1-B11B-1C4AFDBF7591}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$DES=@STEREO;Name=document;GUID={346A2A21-2D0C-4e3e-AC76-9B6EAD633999};@ENDSTEREO;$DES;$CLT={B993851E-B25E-43a6-8DCF-2B60B1B0650F}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+										<UML:TaggedValue tag="modeldocument" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">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</UML:TaggedValue>
+									</UML:ModelElement.taggedValue>
+								</UML:Class>
+							</UML:Namespace.ownedElement>
+						</UML:Package>
+						<UML:Package name="Test Cases" xmi.id="EAPK_18E5A686_3541_4ebc_A342_003FD264D67B" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="parent" value="EAID_72DA0FB9_44C6_45c7_AE3D_E741271EA49F"/>
+								<UML:TaggedValue tag="created" value="2010-04-24 16:30:30"/>
+								<UML:TaggedValue tag="modified" value="2010-04-24 16:30:30"/>
+								<UML:TaggedValue tag="iscontrolled" value="FALSE"/>
+								<UML:TaggedValue tag="lastloaddate" value="2010-04-24 16:30:30"/>
+								<UML:TaggedValue tag="lastsavedate" value="2010-04-24 16:30:30"/>
+								<UML:TaggedValue tag="isprotected" value="FALSE"/>
+								<UML:TaggedValue tag="usedtd" value="FALSE"/>
+								<UML:TaggedValue tag="logxml" value="FALSE"/>
+								<UML:TaggedValue tag="tpos" value="2"/>
+								<UML:TaggedValue tag="batchsave" value="0"/>
+								<UML:TaggedValue tag="batchload" value="0"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="ea_stype" value="Public"/>
+							</UML:ModelElement.taggedValue>
+							<UML:Namespace.ownedElement/>
+						</UML:Package>
+					</UML:Namespace.ownedElement>
+				</UML:Package>
+			</UML:Namespace.ownedElement>
+		</UML:Model>
+		<UML:Diagram name="Test Model" xmi.id="EAID_6B3DE9BA_2032_4f73_B4CD_6924CF5CFC17" diagramType="CustomDiagram" owner="EAPK_F5700360_8433_43e3_ABA1_39D08C108C66" toolName="Enterprise Architect 2.5">
+			<UML:ModelElement.taggedValue>
+				<UML:TaggedValue tag="version" value="1.0"/>
+				<UML:TaggedValue tag="created_date" value="2005-11-20 00:00:00"/>
+				<UML:TaggedValue tag="modified_date" value="2006-01-11 00:00:00"/>
+				<UML:TaggedValue tag="package" value="EAPK_F5700360_8433_43e3_ABA1_39D08C108C66"/>
+				<UML:TaggedValue tag="type" value="Custom"/>
+				<UML:TaggedValue tag="swimlanes" value="locked=false;orientation=0;width=0;inbar=false;names=false;color=0;bold=false;fcol=0;;cls=0;"/>
+				<UML:TaggedValue tag="ea_localid" value="21"/>
+				<UML:TaggedValue tag="EAStyle" value="ShowPrivate=1;ShowProtected=1;ShowPublic=1;HideRelationships=0;Locked=0;Border=0;HighlightForeign=0;PackageContents=0;SequenceNotes=0;ScalePrintImage=0;PPgs.cx=0;PPgs.cy=0;DocSize.cx=827;DocSize.cy=1169;ShowDetails=0;Orientation=P;Zoom=100;ShowTags=0;OpParams=1;ShowIcons=1;CollabNums=0;HideProps=0;ShowReqs=0;ShowCons=0;PaperSize=9;HideParents=0;UseAlias=0;HideAtts=0;HideOps=0;HideStereo=0;HideElemStereo=0;ShowTests=0;ShowMaint=0;ConnectorNotation=;ExplicitNavigability=0;"/>
+				<UML:TaggedValue tag="styleex" value="ExcludeRTF=0;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;Layout=;SuppressFOC=0;MatrixActive=0;SwimlanesActive=1;MatrixLineWidth=1;MatrixLocked=0;TConnectorNotation=;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;ProfileData=;MDGDgm=;STBLDgm=;ShowNotes=0;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;"/>
+			</UML:ModelElement.taggedValue>
+			<UML:Diagram.element>
+				<UML:DiagramElement geometry="Left=350;Top=162;Right=480;Bottom=242;" subject="EAID_18E5A686_3541_4ebc_A342_003FD264D67B" seqno="1" style="DUID=C1706EBB;"/>
+				<UML:DiagramElement geometry="Left=346;Top=51;Right=476;Bottom=131;" subject="EAID_889E2908_C04C_4ad3_9179_33AAD89247A9" seqno="2" style="DUID=6F6C5ED1;"/>
+				<UML:DiagramElement geometry="Left=44;Top=158;Right=212;Bottom=186;" subject="EAID_2A5B5A13_602C_43ad_B10E_A565760DEB50" seqno="3" style="DUID=D247B8E1;HideIcon=0;"/>
+				<UML:DiagramElement geometry="Left=44;Top=48;Right=259;Bottom=139;" subject="EAID_9F9D3056_F9CA_48fe_B72E_BC7EFAAF8C6C" seqno="4" style="DUID=9F676C5C;LWth=1;LCol=8355711;BCol=14745599;BFol=2631720;"/>
+			</UML:Diagram.element>
+		</UML:Diagram>
+		<UML:Diagram name="Test Plans" xmi.id="EAID_946DAB37_F82F_43e3_B32E_7A17C40C06C7" diagramType="CustomDiagram" owner="EAPK_889E2908_C04C_4ad3_9179_33AAD89247A9" toolName="Enterprise Architect 2.5">
+			<UML:ModelElement.taggedValue>
+				<UML:TaggedValue tag="version" value="1.0"/>
+				<UML:TaggedValue tag="created_date" value="2006-01-05 00:00:00"/>
+				<UML:TaggedValue tag="modified_date" value="2006-01-18 00:00:00"/>
+				<UML:TaggedValue tag="package" value="EAPK_889E2908_C04C_4ad3_9179_33AAD89247A9"/>
+				<UML:TaggedValue tag="type" value="Custom"/>
+				<UML:TaggedValue tag="swimlanes" value="locked=false;orientation=0;width=0;inbar=false;names=false;color=0;bold=false;fcol=0;;cls=0;"/>
+				<UML:TaggedValue tag="ea_localid" value="22"/>
+				<UML:TaggedValue tag="EAStyle" value="ShowPrivate=1;ShowProtected=1;ShowPublic=1;HideRelationships=0;Locked=0;Border=0;HighlightForeign=0;PackageContents=0;SequenceNotes=0;ScalePrintImage=0;PPgs.cx=0;PPgs.cy=0;DocSize.cx=827;DocSize.cy=1169;ShowDetails=0;Orientation=P;Zoom=100;ShowTags=0;OpParams=1;ShowIcons=1;CollabNums=0;HideProps=0;ShowReqs=0;ShowCons=0;PaperSize=9;HideParents=0;UseAlias=0;HideAtts=0;HideOps=0;HideStereo=0;HideElemStereo=0;ShowTests=0;ShowMaint=0;ConnectorNotation=;ExplicitNavigability=0;"/>
+				<UML:TaggedValue tag="styleex" value="ExcludeRTF=0;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;Layout=;SuppressFOC=0;MatrixActive=0;SwimlanesActive=1;MatrixLineWidth=1;MatrixLocked=0;TConnectorNotation=;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;ProfileData=;MDGDgm=;STBLDgm=;ShowNotes=0;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;"/>
+			</UML:ModelElement.taggedValue>
+			<UML:Diagram.element>
+				<UML:DiagramElement geometry="Left=127;Top=34;Right=217;Bottom=84;" subject="EAID_B993851E_B25E_43a6_8DCF_2B60B1B0650F" seqno="1" style="DUID=5CFD75CD;"/>
+			</UML:Diagram.element>
+		</UML:Diagram>
+	</XMI.content>
+	<XMI.difference/>
+	<XMI.extensions xmi.extender="Enterprise Architect 2.5"/>
+</XMI>

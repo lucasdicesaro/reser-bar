@@ -1,0 +1,23 @@
+
+Importing Model from XMI
+***** Root Package: Domain Model *****
+Add Classifier: Note
+Add Classifier: $help://domain_model_pattern.htm
+Add Classifier Role: Domain Objects
+***** Append Package: Domain Objects *****
+Add Classifier: Class3
+Add Classifier: Note
+Add Classifier: Class1
+Add Classifier: Class2
+***** Resolving Classifiers *****
+***** Resolving Ownerss *****
+***** Resolve Package Links *****
+***** Add Extensions ******
+***** Add Diagrams *****
+***** Resolving DiagramIDs *****
+***** Resolving Association Classes *****
+***** Resolving Parameter Types *****
+***** Resolving Attribute Types *****
+***** Resolving Note links *****
+***** Fixup external references *****
+Import Complete!
