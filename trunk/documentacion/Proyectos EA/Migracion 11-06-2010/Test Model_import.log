@@ -1,0 +1,23 @@
+
+Importing Model from XMI
+***** Root Package: Test Model *****
+Add Classifier: $help://testing_model_pattern.htm
+Add Classifier: Note
+Add Classifier: Test Case1
+Add Classifier Role: Test Cases
+Add Classifier Role: Test Plans
+***** Append Package: Test Plans *****
+Add Classifier: Master Test Plan
+***** Append Package: Test Cases *****
+***** Resolving Classifiers *****
+***** Resolving Ownerss *****
+***** Resolve Package Links *****
+***** Add Extensions ******
+***** Add Diagrams *****
+***** Resolving DiagramIDs *****
+***** Resolving Association Classes *****
+***** Resolving Parameter Types *****
+***** Resolving Attribute Types *****
+***** Resolving Note links *****
+***** Fixup external references *****
+Import Complete!

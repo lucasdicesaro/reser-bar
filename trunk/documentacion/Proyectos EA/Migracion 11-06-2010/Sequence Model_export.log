@@ -1,0 +1,43 @@
+Exporting package to 'C:\proyectos\reser-bar\documentacion\Proyectos EA\Migracion 11-06-2010\Sequence Model.xml'
+Retrieving data for export: packages
+Retrieving data for export: diagram elements
+Retrieving data for export: links
+Retrieving data for export: constraints
+Retrieving data for export: attribute tagged values
+Retrieving data for export: operation tagged values
+Retrieving data for export: operation parameter tagged values
+Retrieving data for export: connector tagged values
+Completed data retrieval
+Pre-processing export tree...
+Completed pre-processing
+***** Processing package: Sequence Model *****
+Element:0: $help://use_case_model_pattern.htm
+Element:1: $help://usecasediagram.htm
+Element:2: Note
+Element:3: login
+Element:4: reserva
+Element:5: 
+Element:6: 
+Element:7: $help://actor.htm
+***** Processing package: login *****
+Element:8: Comensal
+Element:9: SecurityService
+Element:10: Login Screen
+Element:11: User
+Diagram: login
+***** Processing package: reserva *****
+Element:12: EstablecimientoService
+Element:13: EstablecimientoService
+Element:14: Establecimiento
+Element:15: EstablecimientoController
+Element:16: PagoService
+Element:17: MailService
+Element:18: ReservaController
+Element:19: PantallaReserva
+Element:20: Establecimiento
+Element:21: Comensal
+Element:22: Reserva
+Element:23: ReservaService
+Diagram: reserva
+Formatting output XML...please wait
+XMI Document Export Complete!

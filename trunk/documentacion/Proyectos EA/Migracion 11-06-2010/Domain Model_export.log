@@ -1,0 +1,25 @@
+Exporting package to 'C:\proyectos\reser-bar\documentacion\Proyectos EA\Migracion 11-06-2010\Domain Model.xml'
+Retrieving data for export: packages
+Retrieving data for export: diagram elements
+Retrieving data for export: links
+Retrieving data for export: constraints
+Retrieving data for export: attribute tagged values
+Retrieving data for export: operation tagged values
+Retrieving data for export: operation parameter tagged values
+Retrieving data for export: connector tagged values
+Completed data retrieval
+Pre-processing export tree...
+Completed pre-processing
+***** Processing package: Domain Model *****
+Element:0: Note
+Element:1: $help://domain_model_pattern.htm
+Element:2: Domain Objects
+Diagram: Domain Model
+***** Processing package: Domain Objects *****
+Element:3: Class3
+Element:4: Note
+Element:5: Class1
+Element:6: Class2
+Diagram: Domain Objects
+Formatting output XML...please wait
+XMI Document Export Complete!

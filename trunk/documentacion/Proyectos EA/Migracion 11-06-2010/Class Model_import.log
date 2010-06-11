@@ -1,0 +1,55 @@
+
+Importing Model from XMI
+***** Root Package: Class Model *****
+Add Classifier: Class1
+Add Classifier: RestoReportService
+Add Classifier: GestionAcceso
+Add Classifier: AdminResto
+Add Classifier: Zona
+Add Classifier: Establecimiento
+Add Classifier: Tarjeta
+Add Classifier: Menu
+Add Classifier: CalificacionDAO
+Add Classifier: TipoCocina
+Add Classifier: Evento
+Add Classifier: ReservaService
+Add Classifier: PaymentService
+Add Classifier: GenericDAO
+Add Classifier: DTO
+Add Classifier: ComensalDAO
+Add Classifier: AdminRestoService
+Add Classifier: SuperUsuarioService
+Add Classifier: Reserva
+Add Classifier: PasswordManager
+Add Classifier: Comensal
+Add Classifier: Usuario
+Add Classifier: Filtro
+Add Classifier: ComensalReportService
+Add Classifier: PasswordManager
+Add Classifier: ComensalDAO
+Add Classifier: CalificacionService
+Add Classifier: GestionAcceso
+Add Classifier: Tematica
+Add Classifier: RestoService
+Add Classifier: EstadoInvitado
+Add Classifier: MailUtils
+Add Classifier: Invitado
+Add Classifier: EstadoReserva
+Add Classifier: GrupoDeAcceso
+Add Classifier: GenericDAO
+Add Classifier: ComensalService
+Add Classifier: SuperUsuario
+Add Classifier: Calificacion
+Add Classifier: RestoDAO
+***** Resolving Classifiers *****
+***** Resolving Ownerss *****
+***** Resolve Package Links *****
+***** Add Extensions ******
+***** Add Diagrams *****
+***** Resolving DiagramIDs *****
+***** Resolving Association Classes *****
+***** Resolving Parameter Types *****
+***** Resolving Attribute Types *****
+***** Resolving Note links *****
+***** Fixup external references *****
+Import Complete!
