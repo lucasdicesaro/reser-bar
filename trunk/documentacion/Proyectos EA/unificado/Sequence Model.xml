@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="windows-1252"?>
 <!DOCTYPE XMI SYSTEM "UML_EA.dtd">
-<XMI xmi.version="1.1" xmlns:UML="omg.org/UML1.3" timestamp="2010-06-21 17:33:05">
+<XMI xmi.version="1.1" xmlns:UML="omg.org/UML1.3" timestamp="2010-06-21 17:34:56">
 	<XMI.header>
 		<XMI.documentation>
 			<XMI.exporter>Enterprise Architect</XMI.exporter>
@@ -250,7 +250,7 @@
 												<UML:TaggedValue tag="status" value="Proposed"/>
 												<UML:TaggedValue tag="ea_localid" value="795"/>
 												<UML:TaggedValue tag="ea_eleType" value="element"/>
-												<UML:TaggedValue tag="eventflags" value="LNK=fd04;"/>
+												<UML:TaggedValue tag="eventflags" value="LNK=7be4;"/>
 												<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=0;HSwimLanes=0;BorderStyle=0;"/>
 											</UML:ModelElement.taggedValue>
 										</UML:ClassifierRole>
@@ -277,7 +277,7 @@
 												<UML:TaggedValue tag="stereotype" value="entity"/>
 												<UML:TaggedValue tag="ea_localid" value="797"/>
 												<UML:TaggedValue tag="ea_eleType" value="element"/>
-												<UML:TaggedValue tag="eventflags" value="LNK=fcf5;"/>
+												<UML:TaggedValue tag="eventflags" value="LNK=7bd4;"/>
 												<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=0;HSwimLanes=0;BorderStyle=0;"/>
 											</UML:ModelElement.taggedValue>
 										</UML:ClassifierRole>
@@ -300,7 +300,7 @@
 												<UML:TaggedValue tag="status" value="Proposed"/>
 												<UML:TaggedValue tag="ea_localid" value="798"/>
 												<UML:TaggedValue tag="ea_eleType" value="element"/>
-												<UML:TaggedValue tag="eventflags" value="LNK=fcd5;"/>
+												<UML:TaggedValue tag="eventflags" value="LNK=7ba5;"/>
 												<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=0;HSwimLanes=0;BorderStyle=0;"/>
 											</UML:ModelElement.taggedValue>
 										</UML:ClassifierRole>
@@ -327,7 +327,7 @@
 												<UML:TaggedValue tag="stereotype" value="entity"/>
 												<UML:TaggedValue tag="ea_localid" value="799"/>
 												<UML:TaggedValue tag="ea_eleType" value="element"/>
-												<UML:TaggedValue tag="eventflags" value="LNK=fd04;"/>
+												<UML:TaggedValue tag="eventflags" value="LNK=7be4;"/>
 												<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=0;HSwimLanes=0;BorderStyle=0;"/>
 											</UML:ModelElement.taggedValue>
 										</UML:ClassifierRole>
@@ -376,7 +376,7 @@
 												<UML:TaggedValue tag="stereotype" value="control"/>
 												<UML:TaggedValue tag="ea_localid" value="758"/>
 												<UML:TaggedValue tag="ea_eleType" value="element"/>
-												<UML:TaggedValue tag="eventflags" value="LNK=fcf5;"/>
+												<UML:TaggedValue tag="eventflags" value="LNK=7bc4;"/>
 												<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=0;HSwimLanes=0;BorderStyle=0;"/>
 											</UML:ModelElement.taggedValue>
 										</UML:ClassifierRole>
@@ -401,7 +401,7 @@
 												<UML:TaggedValue tag="stereotype" value="boundary"/>
 												<UML:TaggedValue tag="ea_localid" value="759"/>
 												<UML:TaggedValue tag="ea_eleType" value="element"/>
-												<UML:TaggedValue tag="eventflags" value="LNK=fd14;"/>
+												<UML:TaggedValue tag="eventflags" value="LNK=7bf3;"/>
 												<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=0;HSwimLanes=0;BorderStyle=0;"/>
 											</UML:ModelElement.taggedValue>
 										</UML:ClassifierRole>
@@ -1020,7 +1020,7 @@
 										<UML:TaggedValue tag="status" value="Proposed"/>
 										<UML:TaggedValue tag="ea_localid" value="757"/>
 										<UML:TaggedValue tag="ea_eleType" value="element"/>
-										<UML:TaggedValue tag="eventflags" value="LNK=fd14;"/>
+										<UML:TaggedValue tag="eventflags" value="LNK=7bf3;"/>
 										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=0;HSwimLanes=0;BorderStyle=0;"/>
 									</UML:ModelElement.taggedValue>
 								</UML:Actor>
@@ -3853,7 +3853,7 @@
 				<UML:TaggedValue tag="version" value="1.0"/>
 				<UML:TaggedValue tag="author" value="Administrador"/>
 				<UML:TaggedValue tag="created_date" value="2010-06-07 06:02:17"/>
-				<UML:TaggedValue tag="modified_date" value="2010-06-21 17:32:49"/>
+				<UML:TaggedValue tag="modified_date" value="2010-06-21 17:34:30"/>
 				<UML:TaggedValue tag="package" value="EAPK_AAD7A1F0_BC26_4eb7_A968_BC3C50C1778E"/>
 				<UML:TaggedValue tag="type" value="Sequence"/>
 				<UML:TaggedValue tag="swimlanes" value="locked=false;orientation=0;width=0;inbar=false;names=false;color=0;bold=false;fcol=0;;cls=0;"/>
