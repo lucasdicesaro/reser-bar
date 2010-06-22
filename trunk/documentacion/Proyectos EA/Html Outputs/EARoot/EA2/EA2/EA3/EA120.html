@@ -1,0 +1,203 @@
+<html>
+<head>
+	<link href="../../../../ea.css" rel=stylesheet>
+	<title>03-Desbloquear Contraseña</title>
+</head>
+
+<body>
+	<TABLE class="HeaderTable" align="center" cellSpacing=0 cellPadding=0>
+  <TBODY >
+	<TR>
+		<TD colspan=2 WIDTH="100%" class="Header">usecase: 03-Desbloquear Contraseña</TD>
+	</TR>
+	<TR>
+		<TD WIDTH="48%" class="HeaderDetails"></TD>
+		<TD WIDTH="48%" class="HeaderDetails"></TD>
+	</TR>
+	<TR>
+		<TD WIDTH="40%" class="HeaderDetails"></TD>
+		<TD WIDTH="60%" class="HeaderDetails"></TD>
+	</TR>
+	<TR><TD colspan="2" width="100%"><HR></TD></TR>
+	</TBODY>
+</TABLE> <table cellPadding=2 cellSpacing=2 width="100%">
+  <tbody>
+		<tr>
+			<td class=ObjectTitle>
+				public   usecase: 03-Desbloquear Contraseña  
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<table class=ObjectDetails cellPadding=2 cellSpacing=2 width="100%">
+				  <tbody>
+						<tr>
+							<td width="15%" class=ObjectDetailsTopic>Author:</td>
+							<td width="85%" class=ObjectDetailsValue>Maty</td>
+						</tr>
+						<tr>
+							<td width="15%" class=ObjectDetailsTopic>Project:</td>
+							<td width="85%" class=ObjectDetailsValue>Phase: 1.0; Status: Proposed; Version: 1.0; Complexity: 1</td>
+						</tr>
+						<tr>
+							<td width="15%" class=ObjectDetailsTopic>Dates:</td>
+							<td width="85%" class=ObjectDetailsValue>Created: 25/04/2010 07:42:34 p.m.; Modified: 05/06/2010 06:06:13 p.m.;</td>
+						</tr>
+						<tr>
+							<td width="15%" class=ObjectDetailsTopic>Flags:</td>
+							<td width="85%" class=ObjectDetailsValue> Active: false; IsRoot: false; IsLeaf: false;</td>
+						</tr>
+						<tr>
+							<td width="15%" class=ObjectDetailsTopic>Extension Points:</td>
+							<td width="85%" class=ObjectDetailsValue></td>
+						</tr>
+						<tr>
+							<td width="15%" class=ObjectDetailsTopic>UUID:</td>
+							<td width="85%" class=ObjectDetailsValue>{A0C33FD1-DA3F-41b3-A419-676DF9ED63A2}</td>
+						</tr>
+						<tr>
+							<td colspan="2" width="100%" class=ObjectDetailsTopic>Cuando un usuario ingresa 3 veces consecutivamente mal la contraseña, esta se bloquea. En este caso de uso se describe cómo debe ser desbloqueada</td>
+						</tr>
+					</tbody>
+				</table>
+			</td>
+		</tr>
+		<tr>
+			<td>&nbsp;</td>
+		</tr>
+	</tbody>
+</table><p><table cellPadding=0 cellSpacing=0 width="100%">
+  <tbody>
+		<tr>
+			<td width="10%" class="ObjectSubTitle">
+				Goto:
+			</td>
+			<td width="90%">
+				<a href=#Constraints>Constraints</a>, <a href=#Scenarios>Scenarios</a>
+			</td>
+		</tr>
+	</tbody>
+</table>
+<P/><table cellPadding=0 cellSpacing=0 width="100%">
+  <tbody>
+		<tr>
+			<td width="10%" class="ObjectSubTitle">
+				See also:
+			</td>
+			<td width="90%">
+				<a href="../EA9/EA187.html">05-Validar Contraseña</a>, <a href="../../EA1/EA87.html">Comensal</a>, <a href="../../EA1/EA86.html">Admin. de Restaurante</a>
+			</td>
+		</tr>
+	</tbody>
+</table>
+<P/><table cellPadding=0 cellSpacing=0 width="100%">
+  <tbody>
+		<tr>
+			<td width="10%" class="ObjectSubTitle">
+				Appears in:
+			</td>
+			<td width="90%">
+				<a href="EA116.html">Gestión de Acceso</a>
+			</td>
+		</tr>
+	</tbody>
+</table>
+<P/><table cellPadding=0 cellSpacing=0 width="100%">
+  <tbody>
+		<tr>
+			<td class="ObjectSubTitle">Connections</td>
+		</tr>
+		<tr>
+			<td>
+				<UL>
+							<LI>UseCase &lt;&lt;include&gt;&gt; link to usecase <a href="../EA9/EA187.html">[Validaciones].05-Validar Contraseña</a> &nbsp;  &nbsp;</LI>			<LI>UseCase  link from actor <a href="../../EA1/EA87.html">[Actores].Comensal</a> &nbsp;  &nbsp;</LI>			<LI>UseCase  link from actor <a href="../../EA1/EA86.html">[Actores].Admin. de Restaurante</a> &nbsp;  &nbsp;</LI>	
+				</UL>
+			</td>
+		</tr>
+		<tr>
+			<td>&nbsp;</td>
+		</tr>
+	</tbody>
+</table>
+<table cellPadding=0 cellSpacing=0 width="100%">
+  <tbody>
+		<tr>
+			<td class="ObjectSubTitle">
+				<a Name="Constraints">03-Desbloquear Contraseña</a> Constraint
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<TABLE align="center" BORDER=1 CELLSPACING=0 CELLPADDING=1 bordercolor="white" class="OperationTable">
+					<TR>
+						<TD WIDTH="24%" class="OperationTableHeading">Constraint</TD>
+						<TD WIDTH="8%" class="OperationTableHeading">Type</TD>
+						<TD WIDTH="8%" class="OperationTableHeading">Status</TD>
+						<TD WIDTH="60%" class="OperationTableHeading">Detail</TD>
+					</TR>
+									<TR>
+					<TD WIDTH="24%" class="OperationTableRow">El usuario debe contar con un código alfanumérico de 6 caracteres</TD>
+					<TD WIDTH="8%" class="OperationTableRow">Pre-condition</TD>
+					<TD WIDTH="8%" class="OperationTableRow">Approved</TD>
+					<TD WIDTH="60%" class="OperationTableRow">El usuario debe haber recibido un correo con instrucciones sobre cómo reiniciar la contraseña. el mismo contará con un código para el reinicio de contraseña (Ver: *Generar Código de Contraseña*)</TD>
+				</TR>
+					<TR>
+					<TD WIDTH="24%" class="OperationTableRow">Usuario puede usar el sistema</TD>
+					<TD WIDTH="8%" class="OperationTableRow">Post-condition</TD>
+					<TD WIDTH="8%" class="OperationTableRow">Approved</TD>
+					<TD WIDTH="60%" class="OperationTableRow"></TD>
+				</TR>
+	
+				</TABLE>
+			</td>
+		</tr>
+		<tr>
+			<td>&nbsp;</td>
+		</tr>
+	</tbody>
+</table>  <table cellPadding=0 cellSpacing=0 width="100%">
+  <tbody>
+		<tr>
+			<td class="ObjectSubTitle">
+				<a Name="Scenarios">03-Desbloquear Contraseña</a> Scenarios
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<TABLE align="center" BORDER=1 CELLSPACING=0 CELLPADDING=1 bordercolor="white" class="OperationTable">
+					<TR>
+						<TD WIDTH="24%" class="OperationTableHeading">Scenario</TD>
+						<TD WIDTH="8%" class="OperationTableHeading">Type</TD>
+						<TD WIDTH="68%" class="OperationTableHeading">Detail</TD>						
+					</TR>
+					<TR>
+				<TD WIDTH="24%" class="OperationTableRow">Flujo Básico</TD>
+				<TD WIDTH="8%" class="OperationTableRow">Basic Path</TD>
+				<TD WIDTH="68%" class="OperationTableRow">Usuario: Ingresa a la pantalla de reinicio de contraseña.<br>Usuario: Ingresa el código <br>Usuario: Ingresa nueva contraseña<br>Usuario: Repite la contraseña ingresada.<br>Sistema: Valida que el código ingresado sea el asociado con el usuario.<br>Sistema: Valida la nueva contraseña ingresa. *Validar contraseña*</TD>
+			</TR>
+				</TABLE>
+			</td>
+		</tr>
+		<tr>
+			<td>&nbsp;</td>
+		</tr>
+	</tbody>
+</table><TABLE class="FooterTable" align="center" cellSpacing=0 cellPadding=0>
+  <TBODY >
+	<TR><TD colspan="2" width="100%"><HR></TD></TR>
+	<TR>
+		<TD colspan=2 WIDTH="100%" class="Footer">usecase: 03-Desbloquear Contraseña</TD>
+	</TR>
+	<TR>
+		<TD WIDTH="48%" class="FooterDetails"></TD>
+		<TD WIDTH="48%" class="FooterDetails"></TD>
+	</TR>
+	<TR>
+		<TD WIDTH="40%" class="FooterDetails"></TD>
+		<TD WIDTH="60%" class="FooterDetails"></TD>
+	</TR>
+	</TBODY>
+</TABLE> 
+</body>
+
+</html>
