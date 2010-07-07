@@ -1,0 +1,215 @@
+<html>
+<head>
+	<link href="../../../../ea.css" rel=stylesheet>
+	<title>25-Invitar a Evento</title>
+</head>
+
+<body>
+	<TABLE class="HeaderTable" align="center" cellSpacing=0 cellPadding=0>
+  <TBODY >
+	<TR>
+		<TD colspan=2 WIDTH="100%" class="Header">usecase: 25-Invitar a Evento</TD>
+	</TR>
+	<TR>
+		<TD WIDTH="48%" class="HeaderDetails"></TD>
+		<TD WIDTH="48%" class="HeaderDetails"></TD>
+	</TR>
+	<TR>
+		<TD WIDTH="40%" class="HeaderDetails"></TD>
+		<TD WIDTH="60%" class="HeaderDetails"></TD>
+	</TR>
+	<TR><TD colspan="2" width="100%"><HR></TD></TR>
+	</TBODY>
+</TABLE> <table cellPadding=2 cellSpacing=2 width="100%">
+  <tbody>
+		<tr>
+			<td class=ObjectTitle>
+				public   usecase: 25-Invitar a Evento  
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<table class=ObjectDetails cellPadding=2 cellSpacing=2 width="100%">
+				  <tbody>
+						<tr>
+							<td width="15%" class=ObjectDetailsTopic>Author:</td>
+							<td width="85%" class=ObjectDetailsValue>Maty</td>
+						</tr>
+						<tr>
+							<td width="15%" class=ObjectDetailsTopic>Project:</td>
+							<td width="85%" class=ObjectDetailsValue>Phase: 1.0; Status: Proposed; Version: 1.0; Complexity: 1</td>
+						</tr>
+						<tr>
+							<td width="15%" class=ObjectDetailsTopic>Dates:</td>
+							<td width="85%" class=ObjectDetailsValue>Created: 11/05/2010 10:13:57; Modified: 06/07/2010 23:35:17;</td>
+						</tr>
+						<tr>
+							<td width="15%" class=ObjectDetailsTopic>Flags:</td>
+							<td width="85%" class=ObjectDetailsValue> Active: false; IsRoot: false; IsLeaf: false;</td>
+						</tr>
+						<tr>
+							<td width="15%" class=ObjectDetailsTopic>Extension Points:</td>
+							<td width="85%" class=ObjectDetailsValue></td>
+						</tr>
+						<tr>
+							<td width="15%" class=ObjectDetailsTopic>UUID:</td>
+							<td width="85%" class=ObjectDetailsValue>{6319A21C-59AE-4b85-A9A8-498819B84A2A}</td>
+						</tr>
+						<tr>
+							<td colspan="2" width="100%" class=ObjectDetailsTopic>Dada una reserva, se agregan a la misma usuarios comensales (en estado inicial)<br><br>Al invitar a los comensales, la relación de los mismos con la reserva es "En espera"<br><br>NOTA: No es necesario que los comensales invitados, sean usuarios registrados en el sistema.</td>
+						</tr>
+					</tbody>
+				</table>
+			</td>
+		</tr>
+		<tr>
+			<td>&nbsp;</td>
+		</tr>
+	</tbody>
+</table><p><table cellPadding=0 cellSpacing=0 width="100%">
+  <tbody>
+		<tr>
+			<td width="10%" class="ObjectSubTitle">
+				Goto:
+			</td>
+			<td width="90%">
+				<a href=#Constraints>Constraints</a>, <a href=#Scenarios>Scenarios</a>
+			</td>
+		</tr>
+	</tbody>
+</table>
+<P/><table cellPadding=0 cellSpacing=0 width="100%">
+  <tbody>
+		<tr>
+			<td width="10%" class="ObjectSubTitle">
+				See also:
+			</td>
+			<td width="90%">
+				<a href="EA280.html">71-Editar Reserva</a>, <a href="EA272.html">16-Realizar Reserva</a>, <a href="../EA2/EA223.html">49-Correo de Invitación a Evento</a>
+			</td>
+		</tr>
+	</tbody>
+</table>
+<P/><table cellPadding=0 cellSpacing=0 width="100%">
+  <tbody>
+		<tr>
+			<td width="10%" class="ObjectSubTitle">
+				Appears in:
+			</td>
+			<td width="90%">
+				<a href="EA270.html">Gestión de Reserva</a>
+			</td>
+		</tr>
+	</tbody>
+</table>
+<P/><table cellPadding=0 cellSpacing=0 width="100%">
+  <tbody>
+		<tr>
+			<td class="ObjectSubTitle">Connections</td>
+		</tr>
+		<tr>
+			<td>
+				<UL>
+							<LI>UseCase &lt;&lt;include&gt;&gt; link from usecase <a href="EA280.html">[Gestión de Reserva].71-Editar Reserva</a> &nbsp;  &nbsp;</LI>			<LI>UseCase &lt;&lt;include&gt;&gt; link from usecase <a href="EA272.html">[Gestión de Reserva].16-Realizar Reserva</a> &nbsp;  &nbsp;</LI>			<LI>UseCase &lt;&lt;include&gt;&gt; link to usecase <a href="../EA2/EA223.html">[Enviar Mail].49-Correo de Invitación a Evento</a> &nbsp;  &nbsp;</LI>	
+				</UL>
+			</td>
+		</tr>
+		<tr>
+			<td>&nbsp;</td>
+		</tr>
+	</tbody>
+</table>
+<table cellPadding=0 cellSpacing=0 width="100%">
+  <tbody>
+		<tr>
+			<td class="ObjectSubTitle">
+				<a Name="Constraints">25-Invitar a Evento</a> Constraint
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<TABLE align="center" BORDER=1 CELLSPACING=0 CELLPADDING=1 bordercolor="white" class="OperationTable">
+					<TR>
+						<TD WIDTH="24%" class="OperationTableHeading">Constraint</TD>
+						<TD WIDTH="8%" class="OperationTableHeading">Type</TD>
+						<TD WIDTH="8%" class="OperationTableHeading">Status</TD>
+						<TD WIDTH="60%" class="OperationTableHeading">Detail</TD>
+					</TR>
+									<TR>
+					<TD WIDTH="24%" class="OperationTableRow">El tipo de Evento es conocido.</TD>
+					<TD WIDTH="8%" class="OperationTableRow">Pre-condition</TD>
+					<TD WIDTH="8%" class="OperationTableRow">Approved</TD>
+					<TD WIDTH="60%" class="OperationTableRow"></TD>
+				</TR>
+					<TR>
+					<TD WIDTH="24%" class="OperationTableRow">Se envia Correo Electrónico a los invitados</TD>
+					<TD WIDTH="8%" class="OperationTableRow">Post-condition</TD>
+					<TD WIDTH="8%" class="OperationTableRow">Approved</TD>
+					<TD WIDTH="60%" class="OperationTableRow"></TD>
+				</TR>
+	
+				</TABLE>
+			</td>
+		</tr>
+		<tr>
+			<td>&nbsp;</td>
+		</tr>
+	</tbody>
+</table>  <table cellPadding=0 cellSpacing=0 width="100%">
+  <tbody>
+		<tr>
+			<td class="ObjectSubTitle">
+				<a Name="Scenarios">25-Invitar a Evento</a> Scenarios
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<TABLE align="center" BORDER=1 CELLSPACING=0 CELLPADDING=1 bordercolor="white" class="OperationTable">
+					<TR>
+						<TD WIDTH="24%" class="OperationTableHeading">Scenario</TD>
+						<TD WIDTH="8%" class="OperationTableHeading">Type</TD>
+						<TD WIDTH="68%" class="OperationTableHeading">Detail</TD>						
+					</TR>
+					<TR>
+				<TD WIDTH="24%" class="OperationTableRow">Flujo Básico</TD>
+				<TD WIDTH="8%" class="OperationTableRow">Basic Path</TD>
+				<TD WIDTH="68%" class="OperationTableRow">Usuario: Ingresa un mensaje para mandarle a todos los usuarios que serán invitados.<br><br>Los siguientes pasos se ejecutarán por cada usuarios que quiera ser invitado al evento.<br><br>Usuario: Selecciona la opción Agregar nuevo invitado.<br>Sistema: Le da la opción de agregar la invitación de las siguientes maneras:<br>a. Ingresando el correo electrónico del usuario. (Simple: Ingresar Correo)<br>b. Ingresando a la aplicación de Búsqueda de usuarios existentes. (Simple: Búsqueda de usuario)<br>Usuario: Elige el usuario a invitar.<br>Usuario: Puede personalizar para este uario el mensaje.</TD>
+			</TR><TR>
+				<TD WIDTH="24%" class="OperationTableRow">Ingresar Correo</TD>
+				<TD WIDTH="8%" class="OperationTableRow">Simple</TD>
+				<TD WIDTH="68%" class="OperationTableRow">Sistema: Disponibilizará un campo para ingresar el correo electrónico y un campo donde se informará el Alias de usuario.<br>Sistema: Opcionalmente permitirá ver más información sobre el usuario invitado. Se podrá ver:<br>a. Nombre y Apellido<br>b. Alias<br>c. Correo Electrónico<br>d. Foto de Perfil<br>Usuario: Ingresará el correo electrónico del usuario<br>Sistema: Permitirá Aceptar el correo ingresado o ver datos del usuario a invitar (para visualizar los datos mencionados previo a ingresar al usuario).<br>Usuario: Acepta el Correo Electrónico ingresado<br>Sistema: Agrega al usuario al listado de invitados</TD>
+			</TR><TR>
+				<TD WIDTH="24%" class="OperationTableRow">Búsqueda de usuario</TD>
+				<TD WIDTH="8%" class="OperationTableRow">Simple</TD>
+				<TD WIDTH="68%" class="OperationTableRow">Sistema: Disponibilizará un campo para ingresar el Nombre y Apellido del usuario invitado, o bien el Alias del mismo.<br>Sistema: A medida que el usuario ingresa datos en este campo irá verificando la existencia de usuarios con estos datos.<br>Sistema: Llegada la ocación de no existencia de usuarios con Nombre, Apellido o Alias ingresados se informará y no permitirá invitar a este usuario.<br>Sistema: Cuando queda un solo usuario que cumpla en su Nombre, Apellido o Alias con los datos ingresados, se sugerirá el mismo.<br>Usuario: Ingresa en el campo disponible el nombre y/o el apellido o el Alias del usuario invitado.<br>Usuario: Selecciona el usuario invitado.<br>Sistema: Opcionalmente permitirá ver más información sobre el usuario invitado. Se podrá ver:<br>a. Nombre y Apellido<br>b. Alias<br>c. Correo Electrónico<br>d. Foto de Perfil<br>Sistema: Permitirá Aceptar al Usuario o ver datos del usuario a invitar (para visualizar los datos mencionados previo a ingresar al usuario).<br>Usuario: Acepta el Usuario invitado ingresado<br>Sistema: Agrega al usuario al listado de invitados</TD>
+			</TR><TR>
+				<TD WIDTH="24%" class="OperationTableRow">Enviar invitaciones</TD>
+				<TD WIDTH="8%" class="OperationTableRow">Alternate</TD>
+				<TD WIDTH="68%" class="OperationTableRow">Una vez que se haya terminado de realizar la reserva se enviará a cada invitado un correo electrónico.<br>Para cada invitado se enviará un correo con el siguiente formato. Ver *Correo de Invitación a Evento*</TD>
+			</TR>
+				</TABLE>
+			</td>
+		</tr>
+		<tr>
+			<td>&nbsp;</td>
+		</tr>
+	</tbody>
+</table><TABLE class="FooterTable" align="center" cellSpacing=0 cellPadding=0>
+  <TBODY >
+	<TR><TD colspan="2" width="100%"><HR></TD></TR>
+	<TR>
+		<TD colspan=2 WIDTH="100%" class="Footer">usecase: 25-Invitar a Evento</TD>
+	</TR>
+	<TR>
+		<TD WIDTH="48%" class="FooterDetails"></TD>
+		<TD WIDTH="48%" class="FooterDetails"></TD>
+	</TR>
+	<TR>
+		<TD WIDTH="40%" class="FooterDetails"></TD>
+		<TD WIDTH="60%" class="FooterDetails"></TD>
+	</TR>
+	</TBODY>
+</TABLE> 
+</body>
+
+</html>

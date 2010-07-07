@@ -1,0 +1,167 @@
+<html>
+<head>
+	<link href="../../../../ea.css" rel=stylesheet>
+	<title>47-Correo de Cancelación de Reserva</title>
+</head>
+
+<body>
+	<TABLE class="HeaderTable" align="center" cellSpacing=0 cellPadding=0>
+  <TBODY >
+	<TR>
+		<TD colspan=2 WIDTH="100%" class="Header">usecase: 47-Correo de Cancelación de Reserva</TD>
+	</TR>
+	<TR>
+		<TD WIDTH="48%" class="HeaderDetails"></TD>
+		<TD WIDTH="48%" class="HeaderDetails"></TD>
+	</TR>
+	<TR>
+		<TD WIDTH="40%" class="HeaderDetails"></TD>
+		<TD WIDTH="60%" class="HeaderDetails"></TD>
+	</TR>
+	<TR><TD colspan="2" width="100%"><HR></TD></TR>
+	</TBODY>
+</TABLE> <table cellPadding=2 cellSpacing=2 width="100%">
+  <tbody>
+		<tr>
+			<td class=ObjectTitle>
+				public   usecase: 47-Correo de Cancelación de Reserva  
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<table class=ObjectDetails cellPadding=2 cellSpacing=2 width="100%">
+				  <tbody>
+						<tr>
+							<td width="15%" class=ObjectDetailsTopic>Author:</td>
+							<td width="85%" class=ObjectDetailsValue>Maty</td>
+						</tr>
+						<tr>
+							<td width="15%" class=ObjectDetailsTopic>Project:</td>
+							<td width="85%" class=ObjectDetailsValue>Phase: 1.0; Status: Proposed; Version: 1.0; Complexity: 1</td>
+						</tr>
+						<tr>
+							<td width="15%" class=ObjectDetailsTopic>Dates:</td>
+							<td width="85%" class=ObjectDetailsValue>Created: 04/05/2010 16:26:19; Modified: 02/07/2010 20:18:47;</td>
+						</tr>
+						<tr>
+							<td width="15%" class=ObjectDetailsTopic>Flags:</td>
+							<td width="85%" class=ObjectDetailsValue> Active: false; IsRoot: false; IsLeaf: false;</td>
+						</tr>
+						<tr>
+							<td width="15%" class=ObjectDetailsTopic>Extension Points:</td>
+							<td width="85%" class=ObjectDetailsValue></td>
+						</tr>
+						<tr>
+							<td width="15%" class=ObjectDetailsTopic>UUID:</td>
+							<td width="85%" class=ObjectDetailsValue>{51030AA1-DCE9-4bf1-AC67-9BCCFE93E968}</td>
+						</tr>
+						<tr>
+							<td colspan="2" width="100%" class=ObjectDetailsTopic>Se enviará un correo electrónico, cuando se cancele una reserva ya existente.<br>El correo será enviado a todos los usuarios invitados al mismo y al administrador del restaurante asociado a dicha reserva.</td>
+						</tr>
+					</tbody>
+				</table>
+			</td>
+		</tr>
+		<tr>
+			<td>&nbsp;</td>
+		</tr>
+	</tbody>
+</table><p><table cellPadding=0 cellSpacing=0 width="100%">
+  <tbody>
+		<tr>
+			<td width="10%" class="ObjectSubTitle">
+				Goto:
+			</td>
+			<td width="90%">
+				<a href=#Scenarios>Scenarios</a>
+			</td>
+		</tr>
+	</tbody>
+</table>
+<P/><table cellPadding=0 cellSpacing=0 width="100%">
+  <tbody>
+		<tr>
+			<td width="10%" class="ObjectSubTitle">
+				See also:
+			</td>
+			<td width="90%">
+				<a href="../EA7/EA281.html">72-Cancelar Reserva</a>, <a href="EA227.html">53-Enviar Correo</a>
+			</td>
+		</tr>
+	</tbody>
+</table>
+<P/><table cellPadding=0 cellSpacing=0 width="100%">
+  <tbody>
+		<tr>
+			<td width="10%" class="ObjectSubTitle">
+				Appears in:
+			</td>
+			<td width="90%">
+				<a href="EA216.html">Enviar Mail</a>, <a href="../EA4/EA239.html">Gestión de Comensal</a>
+			</td>
+		</tr>
+	</tbody>
+</table>
+<P/><table cellPadding=0 cellSpacing=0 width="100%">
+  <tbody>
+		<tr>
+			<td class="ObjectSubTitle">Connections</td>
+		</tr>
+		<tr>
+			<td>
+				<UL>
+							<LI>UseCase &lt;&lt;include&gt;&gt; link from usecase <a href="../EA7/EA281.html">[Gestión de Reserva].72-Cancelar Reserva</a> &nbsp;  &nbsp;</LI>			<LI>UseCase &lt;&lt;extend&gt;&gt; link from usecase <a href="EA227.html">[Enviar Mail].53-Enviar Correo</a> &nbsp;  &nbsp;</LI>	
+				</UL>
+			</td>
+		</tr>
+		<tr>
+			<td>&nbsp;</td>
+		</tr>
+	</tbody>
+</table>
+  <table cellPadding=0 cellSpacing=0 width="100%">
+  <tbody>
+		<tr>
+			<td class="ObjectSubTitle">
+				<a Name="Scenarios">47-Correo de Cancelación de Reserva</a> Scenarios
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<TABLE align="center" BORDER=1 CELLSPACING=0 CELLPADDING=1 bordercolor="white" class="OperationTable">
+					<TR>
+						<TD WIDTH="24%" class="OperationTableHeading">Scenario</TD>
+						<TD WIDTH="8%" class="OperationTableHeading">Type</TD>
+						<TD WIDTH="68%" class="OperationTableHeading">Detail</TD>						
+					</TR>
+					<TR>
+				<TD WIDTH="24%" class="OperationTableRow">Flujo Básico</TD>
+				<TD WIDTH="8%" class="OperationTableRow">Basic Path</TD>
+				<TD WIDTH="68%" class="OperationTableRow">Se enviará un correo con las siguientes características:<br><br>- Receptor: Usuario requirente de Solicitud de ser Administrador de restaurante<br>- Asunto: "Novedad de su solicitud".<br>- Contenido: Su solicitud para ser Administrador del restaurante &lt;NombreRestaurante&gt; ha sido &lt;EstadoSolicitud&gt;.<br>- Referencia: Se adjuntarán los datos ingresados entre "&lt;" y "&gt;" donde se indicará el nombre del restaurante que generó la novedad de la solicitud y si fue Aceptada o Rechazada respectivamente.</TD>
+			</TR>
+				</TABLE>
+			</td>
+		</tr>
+		<tr>
+			<td>&nbsp;</td>
+		</tr>
+	</tbody>
+</table><TABLE class="FooterTable" align="center" cellSpacing=0 cellPadding=0>
+  <TBODY >
+	<TR><TD colspan="2" width="100%"><HR></TD></TR>
+	<TR>
+		<TD colspan=2 WIDTH="100%" class="Footer">usecase: 47-Correo de Cancelación de Reserva</TD>
+	</TR>
+	<TR>
+		<TD WIDTH="48%" class="FooterDetails"></TD>
+		<TD WIDTH="48%" class="FooterDetails"></TD>
+	</TR>
+	<TR>
+		<TD WIDTH="40%" class="FooterDetails"></TD>
+		<TD WIDTH="60%" class="FooterDetails"></TD>
+	</TR>
+	</TBODY>
+</TABLE> 
+</body>
+
+</html>

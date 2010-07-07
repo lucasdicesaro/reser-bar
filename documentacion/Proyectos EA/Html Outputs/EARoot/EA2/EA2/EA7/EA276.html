@@ -1,0 +1,179 @@
+<html>
+<head>
+	<link href="../../../../ea.css" rel=stylesheet>
+	<title>26-Pago de Reserva</title>
+</head>
+
+<body>
+	<TABLE class="HeaderTable" align="center" cellSpacing=0 cellPadding=0>
+  <TBODY >
+	<TR>
+		<TD colspan=2 WIDTH="100%" class="Header">usecase: 26-Pago de Reserva</TD>
+	</TR>
+	<TR>
+		<TD WIDTH="48%" class="HeaderDetails"></TD>
+		<TD WIDTH="48%" class="HeaderDetails"></TD>
+	</TR>
+	<TR>
+		<TD WIDTH="40%" class="HeaderDetails"></TD>
+		<TD WIDTH="60%" class="HeaderDetails"></TD>
+	</TR>
+	<TR><TD colspan="2" width="100%"><HR></TD></TR>
+	</TBODY>
+</TABLE> <table cellPadding=2 cellSpacing=2 width="100%">
+  <tbody>
+		<tr>
+			<td class=ObjectTitle>
+				public   usecase: 26-Pago de Reserva  
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<table class=ObjectDetails cellPadding=2 cellSpacing=2 width="100%">
+				  <tbody>
+						<tr>
+							<td width="15%" class=ObjectDetailsTopic>Author:</td>
+							<td width="85%" class=ObjectDetailsValue>macherep</td>
+						</tr>
+						<tr>
+							<td width="15%" class=ObjectDetailsTopic>Project:</td>
+							<td width="85%" class=ObjectDetailsValue>Phase: 1.0; Status: Proposed; Version: 1.0; Complexity: 1</td>
+						</tr>
+						<tr>
+							<td width="15%" class=ObjectDetailsTopic>Dates:</td>
+							<td width="85%" class=ObjectDetailsValue>Created: 10/05/2010 12:22:31; Modified: 07/07/2010 4:27:48;</td>
+						</tr>
+						<tr>
+							<td width="15%" class=ObjectDetailsTopic>Flags:</td>
+							<td width="85%" class=ObjectDetailsValue> Active: false; IsRoot: false; IsLeaf: false;</td>
+						</tr>
+						<tr>
+							<td width="15%" class=ObjectDetailsTopic>Extension Points:</td>
+							<td width="85%" class=ObjectDetailsValue></td>
+						</tr>
+						<tr>
+							<td width="15%" class=ObjectDetailsTopic>UUID:</td>
+							<td width="85%" class=ObjectDetailsValue>{BDEE047D-7692-4eae-9D06-05F26E31F59D}</td>
+						</tr>
+						<tr>
+							<td colspan="2" width="100%" class=ObjectDetailsTopic>Este flujo representa el flujo basico del CU 26-Pago de Reserva<br><br>Se registrará en la relación del usuario con la reserva el medio de pago elegido.<br><br>Al Pagar el menú, el estado del comensal se modifica a "Pagado". <br>Si todos los comensales han pagado, se modifica el estado de la reserva a: "En Espera" (simultáneamente se le avisa al administrador de restaurante)<br><br>Cuando se acabe el tiempo de Cancelación de la reserva en cuestión, se debitarán los pagos realizados por los comensales, en ese momento se enviará el correo de nueva reserva efectuada y se cambiará el estado de la reserva a "Pagada".<br>Al acabarse el tiempo de cancelación, aquellos usuarios que no hayan pagados cambiarán su estado a "Cancelada"</td>
+						</tr>
+					</tbody>
+				</table>
+			</td>
+		</tr>
+		<tr>
+			<td>&nbsp;</td>
+		</tr>
+	</tbody>
+</table><p><table cellPadding=0 cellSpacing=0 width="100%">
+  <tbody>
+		<tr>
+			<td width="10%" class="ObjectSubTitle">
+				Goto:
+			</td>
+			<td width="90%">
+				<a href=#Scenarios>Scenarios</a>
+			</td>
+		</tr>
+	</tbody>
+</table>
+<P/><table cellPadding=0 cellSpacing=0 width="100%">
+  <tbody>
+		<tr>
+			<td width="10%" class="ObjectSubTitle">
+				See also:
+			</td>
+			<td width="90%">
+				<a href="EA272.html">16-Realizar Reserva</a>, <a href="EA280.html">71-Editar Reserva</a>, <a href="EA278.html">28-Validación de Pago de Reserva</a>, <a href="EA274.html">24-Generar Comprobante de Pago</a>, <a href="../EA2/EA225.html">51-Correo de Nueva Reserva efectuada</a>
+			</td>
+		</tr>
+	</tbody>
+</table>
+<P/><table cellPadding=0 cellSpacing=0 width="100%">
+  <tbody>
+		<tr>
+			<td width="10%" class="ObjectSubTitle">
+				Appears in:
+			</td>
+			<td width="90%">
+				<a href="EA270.html">Gestión de Reserva</a>
+			</td>
+		</tr>
+	</tbody>
+</table>
+<P/><table cellPadding=0 cellSpacing=0 width="100%">
+  <tbody>
+		<tr>
+			<td class="ObjectSubTitle">Connections</td>
+		</tr>
+		<tr>
+			<td>
+				<UL>
+							<LI>UseCase &lt;&lt;include&gt;&gt; link from usecase <a href="EA272.html">[Gestión de Reserva].16-Realizar Reserva</a> &nbsp;  &nbsp;</LI>			<LI>UseCase &lt;&lt;include&gt;&gt; link from usecase <a href="EA280.html">[Gestión de Reserva].71-Editar Reserva</a> &nbsp;  &nbsp;</LI>			<LI>UseCase &lt;&lt;include&gt;&gt; link to usecase <a href="EA278.html">[Gestión de Reserva].28-Validación de Pago de Reserva</a> &nbsp;  &nbsp;</LI>			<LI>UseCase &lt;&lt;include&gt;&gt; link to usecase <a href="EA274.html">[Gestión de Reserva].24-Generar Comprobante de Pago</a> &nbsp;  &nbsp;</LI>			<LI>UseCase &lt;&lt;include&gt;&gt; link to usecase <a href="../EA2/EA225.html">[Enviar Mail].51-Correo de Nueva Reserva efectuada</a> &nbsp;  &nbsp;</LI>	
+				</UL>
+			</td>
+		</tr>
+		<tr>
+			<td>&nbsp;</td>
+		</tr>
+	</tbody>
+</table>
+  <table cellPadding=0 cellSpacing=0 width="100%">
+  <tbody>
+		<tr>
+			<td class="ObjectSubTitle">
+				<a Name="Scenarios">26-Pago de Reserva</a> Scenarios
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<TABLE align="center" BORDER=1 CELLSPACING=0 CELLPADDING=1 bordercolor="white" class="OperationTable">
+					<TR>
+						<TD WIDTH="24%" class="OperationTableHeading">Scenario</TD>
+						<TD WIDTH="8%" class="OperationTableHeading">Type</TD>
+						<TD WIDTH="68%" class="OperationTableHeading">Detail</TD>						
+					</TR>
+					<TR>
+				<TD WIDTH="24%" class="OperationTableRow">Flujo Básico</TD>
+				<TD WIDTH="8%" class="OperationTableRow">Basic Path</TD>
+				<TD WIDTH="68%" class="OperationTableRow">Usuario: Elige el medio de pago. Los posibles medios son:<br>a. Tarjeta de crédito (Ver Simple: a)<br>b. (Ver Simple: b)<br>c. (Ver Simple: c)<br>Sistema: Valida que el pago sea correcto. Ver *Validación de Pago de Reserva*<br>Sistema: Envia Correo electrónico al restaurante. Ver *Correo de Nueva Reserva efectuada*<br>Usuario: Puede pedir un comprobante de pago<br>Sistema: Genera el comprobante. Ver *Generar Comprobante de Pago*</TD>
+			</TR><TR>
+				<TD WIDTH="24%" class="OperationTableRow">a. Pago con Tarjeta de Crédito</TD>
+				<TD WIDTH="8%" class="OperationTableRow">Simple</TD>
+				<TD WIDTH="68%" class="OperationTableRow">Usuario: Elige pagar con Tarjeta de Crédito<br>Usuario: Elige la tarjeta con la que desea pagar (VISA, AMERICAN EXPRESS, MASTERCARD, ETC)<br>Usuario: Ingresa los datos de la Tarjeta:<br>a. Número<br>b. Código de seguridad<br>c. Fecha de vencimiento<br>d. Teléfono de contacto</TD>
+			</TR><TR>
+				<TD WIDTH="24%" class="OperationTableRow">b</TD>
+				<TD WIDTH="8%" class="OperationTableRow">Simple</TD>
+				<TD WIDTH="68%" class="OperationTableRow"></TD>
+			</TR><TR>
+				<TD WIDTH="24%" class="OperationTableRow">c</TD>
+				<TD WIDTH="8%" class="OperationTableRow">Simple</TD>
+				<TD WIDTH="68%" class="OperationTableRow"></TD>
+			</TR>
+				</TABLE>
+			</td>
+		</tr>
+		<tr>
+			<td>&nbsp;</td>
+		</tr>
+	</tbody>
+</table><TABLE class="FooterTable" align="center" cellSpacing=0 cellPadding=0>
+  <TBODY >
+	<TR><TD colspan="2" width="100%"><HR></TD></TR>
+	<TR>
+		<TD colspan=2 WIDTH="100%" class="Footer">usecase: 26-Pago de Reserva</TD>
+	</TR>
+	<TR>
+		<TD WIDTH="48%" class="FooterDetails"></TD>
+		<TD WIDTH="48%" class="FooterDetails"></TD>
+	</TR>
+	<TR>
+		<TD WIDTH="40%" class="FooterDetails"></TD>
+		<TD WIDTH="60%" class="FooterDetails"></TD>
+	</TR>
+	</TBODY>
+</TABLE> 
+</body>
+
+</html>
