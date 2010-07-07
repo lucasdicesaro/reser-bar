@@ -1,0 +1,8 @@
+tocTab[tocTab.length] = new Array("1.6.4:1", "", "agregarInvitado", "EARoot/EA1/EA6/EA4/EA104.htm", "185.png", "25", "0", "", "Sequence diagram");
+tocTab[tocTab.length] = new Array("1.6.4:2", "", ": InvitadoService", "EARoot/EA1/EA6/EA4/EA106.htm", "25.png", "231", "0", "", "Object");
+tocTab[tocTab.length] = new Array("1.6.4:3", "", ": InvitadoDAO", "EARoot/EA1/EA6/EA4/EA107.htm", "25.png", "230", "0", "", "Object");
+tocTab[tocTab.length] = new Array("1.6.4:4", "", "«entity» : Invitado", "EARoot/EA1/EA6/EA4/EA108.htm", "25.png", "229", "0", "", "Object");
+tocTab[tocTab.length] = new Array("1.6.4:5", "", "Comensal", "EARoot/EA1/EA6/EA4/EA109.htm", "6.png", "227", "0", "", "Actor");
+tocTab[tocTab.length] = new Array("1.6.4:6", "", "«control» ControlUnicidad", "EARoot/EA1/EA6/EA4/EA110.htm", "57.png", "233", "0", "", "Sequence");
+tocTab[tocTab.length] = new Array("1.6.4:7", "", "MailUtils", "EARoot/EA1/EA6/EA4/EA111.htm", "57.png", "232", "0", "", "Sequence");
+tocTab[tocTab.length] = new Array("1.6.4:8", "", "«boundary» PantallaReserva", "EARoot/EA1/EA6/EA4/EA112.htm", "57.png", "228", "0", "", "Sequence");

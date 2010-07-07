@@ -1,0 +1,10 @@
+tocTab[tocTab.length] = new Array("1.4:1", "", "loguearseAlSistema", "EARoot/EA1/EA4/EA52.htm", "185.png", "20", "0", "", "Sequence diagram");
+tocTab[tocTab.length] = new Array("1.4:2", "", ": LoginDAO", "EARoot/EA1/EA4/EA54.htm", "25.png", "189", "0", "", "Object");
+tocTab[tocTab.length] = new Array("1.4:3", "", "«entity» : Comensal", "EARoot/EA1/EA4/EA55.htm", "25.png", "188", "0", "", "Object");
+tocTab[tocTab.length] = new Array("1.4:4", "", "«entity» : Usuario", "EARoot/EA1/EA4/EA56.htm", "25.png", "187", "0", "", "Object");
+tocTab[tocTab.length] = new Array("1.4:5", "", ": LoginService", "EARoot/EA1/EA4/EA57.htm", "25.png", "186", "0", "", "Object");
+tocTab[tocTab.length] = new Array("1.4:6", "", "Comensal", "EARoot/EA1/EA4/EA58.htm", "6.png", "185", "0", "", "Actor");
+tocTab[tocTab.length] = new Array("1.4:7", "", "«boundary» Login Screen", "EARoot/EA1/EA4/EA59.htm", "57.png", "191", "0", "", "Sequence");
+tocTab[tocTab.length] = new Array("1.4:8", "", "«control» SecurityHelper", "EARoot/EA1/EA4/EA60.htm", "57.png", "190", "0", "", "Sequence");
+tocTab[tocTab.length] = new Array("1.4:9", "", "«entity» User", "EARoot/EA1/EA4/EA61.htm", "57.png", "193", "0", "", "Sequence");
+tocTab[tocTab.length] = new Array("1.4:10", "", "UsuarioService", "EARoot/EA1/EA4/EA62.htm", "57.png", "192", "0", "", "Sequence");

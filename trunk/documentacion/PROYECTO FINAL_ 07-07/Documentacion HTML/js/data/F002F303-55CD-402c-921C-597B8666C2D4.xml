@@ -1,0 +1,11 @@
+tocTab[tocTab.length] = new Array("2.2.7:1", "", "Gestión de Reserva", "EARoot/EA2/EA2/EA7/EA275.htm", "180.png", "10", "0", "", "Use Case diagram");
+tocTab[tocTab.length] = new Array("2.2.7:2", "", "16-Realizar Reserva", "EARoot/EA2/EA2/EA7/EA277.htm", "7.png", "69", "0", "", "UseCase");
+tocTab[tocTab.length] = new Array("2.2.7:3", "", "23-Elegir Menú", "EARoot/EA2/EA2/EA7/EA278.htm", "7.png", "72", "0", "", "UseCase");
+tocTab[tocTab.length] = new Array("2.2.7:4", "", "24-Generar Comprobante de Pago", "EARoot/EA2/EA2/EA7/EA279.htm", "7.png", "65", "0", "", "UseCase");
+tocTab[tocTab.length] = new Array("2.2.7:5", "", "25-Invitar a Evento", "EARoot/EA2/EA2/EA7/EA280.htm", "7.png", "66", "0", "", "UseCase");
+tocTab[tocTab.length] = new Array("2.2.7:6", "", "26-Pago de Reserva", "EARoot/EA2/EA2/EA7/EA281.htm", "7.png", "70", "0", "", "UseCase");
+tocTab[tocTab.length] = new Array("2.2.7:7", "", "27-Seleccionar Evento", "EARoot/EA2/EA2/EA7/EA282.htm", "7.png", "64", "0", "", "UseCase");
+tocTab[tocTab.length] = new Array("2.2.7:8", "", "28-Validación de Pago de Reserva", "EARoot/EA2/EA2/EA7/EA283.htm", "7.png", "67", "0", "", "UseCase");
+tocTab[tocTab.length] = new Array("2.2.7:9", "", "29-Validación de Reserva", "EARoot/EA2/EA2/EA7/EA284.htm", "7.png", "63", "0", "", "UseCase");
+tocTab[tocTab.length] = new Array("2.2.7:10", "", "71-Editar Reserva", "EARoot/EA2/EA2/EA7/EA285.htm", "7.png", "68", "0", "", "UseCase");
+tocTab[tocTab.length] = new Array("2.2.7:11", "", "72-Cancelar Reserva", "EARoot/EA2/EA2/EA7/EA286.htm", "7.png", "71", "0", "", "UseCase");

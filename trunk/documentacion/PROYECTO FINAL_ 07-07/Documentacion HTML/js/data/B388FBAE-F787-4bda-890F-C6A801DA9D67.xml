@@ -1,0 +1,11 @@
+tocTab[tocTab.length] = new Array("1.6.1", "1", "0. Realizar Reserva", "EARoot/EA1/EA6/EA72.htm", "4.png", "", "", "{59265DBE-5413-4893-B5B9-307F1792EB66}", "Package");
+tocTab[tocTab.length] = new Array("1.6.2", "1", "1. Busqueda de Restaurante", "EARoot/EA1/EA6/EA73.htm", "4.png", "", "", "{CC77C23A-FEB5-45b3-BE41-32B18FF777BF}", "Package");
+tocTab[tocTab.length] = new Array("1.6.3", "1", "2. Eventos", "EARoot/EA1/EA6/EA74.htm", "4.png", "", "", "{F3679504-6E8B-44c0-A942-4AD65C9D137F}", "Package");
+tocTab[tocTab.length] = new Array("1.6.4", "1", "3.1 Agregar Invitado", "EARoot/EA1/EA6/EA75.htm", "4.png", "", "", "{9142A9E7-049B-43fd-AC1E-A4589AF24889}", "Package");
+tocTab[tocTab.length] = new Array("1.6.5", "1", "3.2 Menues", "EARoot/EA1/EA6/EA76.htm", "4.png", "", "", "{62CE600B-3613-4ce8-9CAE-5701A850FCB0}", "Package");
+tocTab[tocTab.length] = new Array("1.6.6", "1", "4. Validar Reserva", "EARoot/EA1/EA6/EA77.htm", "4.png", "", "", "{8A749922-E8C3-40cf-946E-0BE4F6BC4726}", "Package");
+tocTab[tocTab.length] = new Array("1.6.7", "1", "5. Crear Reserva", "EARoot/EA1/EA6/EA78.htm", "4.png", "", "", "{A42B67EE-980A-4e8d-A7DC-B9289050C429}", "Package");
+tocTab[tocTab.length] = new Array("1.6.8", "1", "6. Medios de Pago", "EARoot/EA1/EA6/EA79.htm", "4.png", "", "", "{BBC147BC-DBA4-4756-A525-585821A88683}", "Package");
+tocTab[tocTab.length] = new Array("1.6.9", "1", "7. Confirmacion de Reserva", "EARoot/EA1/EA6/EA80.htm", "4.png", "", "", "{F4D27849-EE71-41aa-AB24-BC7EBEFB4513}", "Package");
+tocTab[tocTab.length] = new Array("1.6.10", "1", "8. Aceptacion del AdminResto", "EARoot/EA1/EA6/EA81.htm", "4.png", "", "", "{5A076CA0-7389-4cd1-8BAF-D1FA79482A8F}", "Package");
+tocTab[tocTab.length] = new Array("1.6.11", "1", "old_crear(deprecated)", "EARoot/EA1/EA6/EA82.htm", "4.png", "", "", "{307AC205-AAA5-43b2-B72C-96EF77E3EC7C}", "Package");

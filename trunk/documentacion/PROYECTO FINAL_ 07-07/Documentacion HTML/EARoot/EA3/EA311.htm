@@ -1,0 +1,73 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Servicios</title>
+<link href="../../css/ea.css" rel="stylesheet" type="text/css" />
+<script>
+function initPage(src) {
+	if(parent==this&&(this.location+"").indexOf('EARoot')!=-1)
+		document.location=(this.location+"").substring(0,(this.location+"").indexOf('EARoot'))+"index"+(this.location+"").substring((this.location+"").lastIndexOf('.'))+"?goto="+((this.location+"").substring((this.location+"").indexOf('EARoot')+7,(this.location+"").lastIndexOf('.')).replace(/\//g,':').replace(/EA/g,""));
+	else
+		parent.initPage(src);
+}
+</script>
+</head>
+<body onload="initPage(this);" class="Content">
+<div class="PageBody">
+	
+<img src="EA312.png" usemap="#EA312" border="0" />
+
+<MAP NAME="EA312">
+<area shape="rect" coords="1091,237,1210,307" href="EA317.htm">
+<area shape="rect" coords="1982,240,2112,310" href="EA319.htm">
+<area shape="rect" coords="2211,144,2347,214" href="EA314.htm">
+<area shape="rect" coords="740,178,888,252" href="EA344.htm">
+<area shape="rect" coords="2222,36,2526,128" href="EA356.htm">
+<area shape="rect" coords="1919,10,2190,141" href="EA355.htm">
+<area shape="rect" coords="1665,36,1884,115" href="EA328.htm">
+<area shape="rect" coords="285,36,463,115" href="EA348.htm">
+<area shape="rect" coords="1318,21,1631,152" href="EA322.htm">
+<area shape="rect" coords="1023,28,1284,185" href="EA329.htm">
+<area shape="rect" coords="10,180,298,285" href="EA353.htm">
+<area shape="rect" coords="774,40,975,110" href="EA325.htm">
+<area shape="rect" coords="496,34,732,117" href="EA347.htm">
+</MAP>
+
+	<div class="ObjectTitle">Servicios : logical diagram</div>
+	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Created:</td>
+			<td width="85%" class="ObjectDetailsValue">13/06/2010 22:03:22</td>
+		</tr>
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Modified:</td>
+			<td width="85%" class="ObjectDetailsValue">07/07/2010 04:18:51</td>
+		</tr>
+		<tr style="padding-top: 10px;">
+			<td width="15%" class="ObjectDetailsTopic"><img src="../../images/plus03.gif" align="absmiddle" id="proj" onclick="parent.toggleData(this.id)" />Project:</td>
+			<td width="85%" class="ObjectDetailsValue"></td>			
+		</tr>
+		<tr id="proj00" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">Author:</td>
+			<td width="85%" class="ObjectDetailsValue">Administrador</td>
+		</tr>
+		<tr id="proj01" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">Version:</td>
+			<td width="85%" class="ObjectDetailsValue">1.0</td>
+		</tr>
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic"><img src="../../images/plus03.gif" align="absmiddle" id="adv" onclick="parent.toggleData(this.id)" />Advanced:</td>
+			<td width="85%" class="ObjectDetailsValue"></td>			
+		</tr>
+		<tr id="adv00" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">ID:</td>
+			<td width="85%" class="ObjectDetailsValue">{0F5DA98D-C4F2-471d-B696-FF53B757E8FF}</td>
+		</tr>
+	</table>
+	<div class="ObjectDetailsNotes">Los métodos de las clases de Servicios utilizan la clase DTO para comunicarse tanto con las clases de Servicios como con las clases DAO. La definición de la clase DTO se encuentra en el diagrama DTO.</div>
+
+</div>
+ 
+</body>
+</html>

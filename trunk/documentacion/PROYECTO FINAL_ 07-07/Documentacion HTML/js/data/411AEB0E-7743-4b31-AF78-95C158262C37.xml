@@ -1,0 +1,5 @@
+tocTab[tocTab.length] = new Array("2.2.4:1", "", "Gestión de Comensal", "EARoot/EA2/EA2/EA4/EA244.htm", "180.png", "7", "0", "", "Use Case diagram");
+tocTab[tocTab.length] = new Array("2.2.4:2", "", "08-Registrar usuario Comensal", "EARoot/EA2/EA2/EA4/EA246.htm", "7.png", "40", "0", "", "UseCase");
+tocTab[tocTab.length] = new Array("2.2.4:3", "", "17-Seleccionar Restaurante", "EARoot/EA2/EA2/EA4/EA247.htm", "7.png", "38", "0", "", "UseCase");
+tocTab[tocTab.length] = new Array("2.2.4:4", "", "19-Aceptar Invitación a Evento", "EARoot/EA2/EA2/EA4/EA248.htm", "7.png", "41", "0", "", "UseCase");
+tocTab[tocTab.length] = new Array("2.2.4:5", "", "20-Rechazar Invitación a Evento", "EARoot/EA2/EA2/EA4/EA249.htm", "7.png", "39", "0", "", "UseCase");

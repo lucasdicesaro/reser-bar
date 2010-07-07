@@ -1,0 +1,11 @@
+tocTab[tocTab.length] = new Array("2.2.2:1", "", "Enviar Mail", "EARoot/EA2/EA2/EA2/EA221.htm", "180.png", "5", "0", "", "Use Case diagram");
+tocTab[tocTab.length] = new Array("2.2.2:2", "", "06-Correo de Registración", "EARoot/EA2/EA2/EA2/EA223.htm", "7.png", "22", "0", "", "UseCase");
+tocTab[tocTab.length] = new Array("2.2.2:3", "", "21-Correo de Inivtación a evento Rechazada", "EARoot/EA2/EA2/EA2/EA224.htm", "7.png", "20", "0", "", "UseCase");
+tocTab[tocTab.length] = new Array("2.2.2:4", "", "46-Correo Invitación de Administrador", "EARoot/EA2/EA2/EA2/EA225.htm", "7.png", "25", "0", "", "UseCase");
+tocTab[tocTab.length] = new Array("2.2.2:5", "", "47-Correo de Cancelación de Reserva", "EARoot/EA2/EA2/EA2/EA226.htm", "7.png", "21", "0", "", "UseCase");
+tocTab[tocTab.length] = new Array("2.2.2:6", "", "48-Correo Solicitud de Administrar Restaurante", "EARoot/EA2/EA2/EA2/EA227.htm", "7.png", "24", "0", "", "UseCase");
+tocTab[tocTab.length] = new Array("2.2.2:7", "", "49-Correo de Invitación a Evento", "EARoot/EA2/EA2/EA2/EA228.htm", "7.png", "27", "0", "", "UseCase");
+tocTab[tocTab.length] = new Array("2.2.2:8", "", "50-Correo de Notificiación de Nueva Reserva", "EARoot/EA2/EA2/EA2/EA229.htm", "7.png", "23", "0", "", "UseCase");
+tocTab[tocTab.length] = new Array("2.2.2:9", "", "51-Correo de Nueva Reserva efectuada", "EARoot/EA2/EA2/EA2/EA230.htm", "7.png", "26", "0", "", "UseCase");
+tocTab[tocTab.length] = new Array("2.2.2:10", "", "52-Correo de Reiniciar Contraseña", "EARoot/EA2/EA2/EA2/EA231.htm", "7.png", "28", "0", "", "UseCase");
+tocTab[tocTab.length] = new Array("2.2.2:11", "", "53-Enviar Correo", "EARoot/EA2/EA2/EA2/EA232.htm", "7.png", "19", "0", "", "UseCase");

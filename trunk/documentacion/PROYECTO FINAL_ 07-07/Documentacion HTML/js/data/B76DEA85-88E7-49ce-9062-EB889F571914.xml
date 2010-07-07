@@ -1,0 +1,13 @@
+tocTab[tocTab.length] = new Array("1.3:1", "", "aceptarInvitacion", "EARoot/EA1/EA3/EA37.htm", "185.png", "19", "0", "", "Sequence diagram");
+tocTab[tocTab.length] = new Array("1.3:2", "", ": ReservaService", "EARoot/EA1/EA3/EA39.htm", "25.png", "178", "0", "", "Object");
+tocTab[tocTab.length] = new Array("1.3:3", "", ": ComensalDAO", "EARoot/EA1/EA3/EA40.htm", "25.png", "177", "0", "", "Object");
+tocTab[tocTab.length] = new Array("1.3:4", "", ": ReservaService", "EARoot/EA1/EA3/EA41.htm", "25.png", "176", "0", "", "Object");
+tocTab[tocTab.length] = new Array("1.3:5", "", ": Comensal", "EARoot/EA1/EA3/EA42.htm", "57.png", "174", "0", "", "Sequence");
+tocTab[tocTab.length] = new Array("1.3:6", "", ": ReservaDAO", "EARoot/EA1/EA3/EA44.htm", "25.png", "184", "0", "", "Object");
+tocTab[tocTab.length] = new Array("1.3:7", "", "«entity» : Comensal", "EARoot/EA1/EA3/EA45.htm", "25.png", "183", "0", "", "Object");
+tocTab[tocTab.length] = new Array("1.3:8", "", ": ComensalService", "EARoot/EA1/EA3/EA46.htm", "25.png", "182", "0", "", "Object");
+tocTab[tocTab.length] = new Array("1.3:9", "", "«entity» : Reserva", "EARoot/EA1/EA3/EA47.htm", "25.png", "180", "0", "", "Object");
+tocTab[tocTab.length] = new Array("1.3:10", "", "Comensal", "EARoot/EA1/EA3/EA48.htm", "6.png", "172", "0", "", "Actor");
+tocTab[tocTab.length] = new Array("1.3:11", "", "«boundary» Interfaz a otros diagramas de secuencia", "EARoot/EA1/EA3/EA49.htm", "57.png", "175", "0", "", "Sequence");
+tocTab[tocTab.length] = new Array("1.3:12", "", "«boundary» PantallaInvitacion", "EARoot/EA1/EA3/EA50.htm", "57.png", "179", "0", "", "Sequence");
+tocTab[tocTab.length] = new Array("1.3:13", "", "«control» ValidadorEventos", "EARoot/EA1/EA3/EA51.htm", "57.png", "181", "0", "", "Sequence");
