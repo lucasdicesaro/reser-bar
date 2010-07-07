@@ -1,0 +1,10 @@
+tocTab[tocTab.length] = new Array("2.2.3:1", "", "Gestión de Acceso", "EARoot/EA2/EA2/EA3/EA233.htm", "180.png", "6", "0", "", "Use Case diagram");
+tocTab[tocTab.length] = new Array("2.2.3:2", "", "01-Ingresar a Sistema", "EARoot/EA2/EA2/EA3/EA235.htm", "7.png", "31", "0", "", "UseCase");
+tocTab[tocTab.length] = new Array("2.2.3:3", "", "02-Bloquear contraseña", "EARoot/EA2/EA2/EA3/EA236.htm", "7.png", "37", "0", "", "UseCase");
+tocTab[tocTab.length] = new Array("2.2.3:4", "", "03-Desbloquear Contraseña", "EARoot/EA2/EA2/EA3/EA237.htm", "7.png", "36", "0", "", "UseCase");
+tocTab[tocTab.length] = new Array("2.2.3:5", "", "04-Registrar Usuario", "EARoot/EA2/EA2/EA3/EA238.htm", "7.png", "34", "0", "", "UseCase");
+tocTab[tocTab.length] = new Array("2.2.3:6", "", "07-Solicitar Cambio de Contraseña", "EARoot/EA2/EA2/EA3/EA239.htm", "7.png", "33", "0", "", "UseCase");
+tocTab[tocTab.length] = new Array("2.2.3:7", "", "09-Eliminar usuario", "EARoot/EA2/EA2/EA3/EA240.htm", "7.png", "32", "0", "", "UseCase");
+tocTab[tocTab.length] = new Array("2.2.3:8", "", "10-Editar Perfil de Usuario", "EARoot/EA2/EA2/EA3/EA241.htm", "7.png", "30", "0", "", "UseCase");
+tocTab[tocTab.length] = new Array("2.2.3:9", "", "11-Cerrar Sesión", "EARoot/EA2/EA2/EA3/EA242.htm", "7.png", "29", "0", "", "UseCase");
+tocTab[tocTab.length] = new Array("2.2.3:10", "", "12-Recordar Contraseña", "EARoot/EA2/EA2/EA3/EA243.htm", "7.png", "35", "0", "", "UseCase");

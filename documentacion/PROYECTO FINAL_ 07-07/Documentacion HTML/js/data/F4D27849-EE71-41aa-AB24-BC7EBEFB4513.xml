@@ -1,0 +1,11 @@
+tocTab[tocTab.length] = new Array("1.6.9:1", "", "confirmarReserva", "EARoot/EA1/EA6/EA9/EA141.htm", "185.png", "30", "0", "", "Sequence diagram");
+tocTab[tocTab.length] = new Array("1.6.9:2", "", ": PaymentService", "EARoot/EA1/EA6/EA9/EA143.htm", "25.png", "260", "0", "", "Object");
+tocTab[tocTab.length] = new Array("1.6.9:3", "", ": ComensalService", "EARoot/EA1/EA6/EA9/EA144.htm", "25.png", "259", "0", "", "Object");
+tocTab[tocTab.length] = new Array("1.6.9:4", "", ": InvitadoService", "EARoot/EA1/EA6/EA9/EA145.htm", "25.png", "258", "0", "", "Object");
+tocTab[tocTab.length] = new Array("1.6.9:5", "", "«entity» : Invitado", "EARoot/EA1/EA6/EA9/EA146.htm", "25.png", "257", "0", "", "Object");
+tocTab[tocTab.length] = new Array("1.6.9:6", "", "«entity» : Reserva", "EARoot/EA1/EA6/EA9/EA147.htm", "25.png", "263", "0", "", "Object");
+tocTab[tocTab.length] = new Array("1.6.9:7", "", ": ReservaService", "EARoot/EA1/EA6/EA9/EA148.htm", "25.png", "262", "0", "", "Object");
+tocTab[tocTab.length] = new Array("1.6.9:8", "", "Comensal", "EARoot/EA1/EA6/EA9/EA149.htm", "6.png", "254", "0", "", "Actor");
+tocTab[tocTab.length] = new Array("1.6.9:9", "", "MailUtils", "EARoot/EA1/EA6/EA9/EA150.htm", "57.png", "261", "0", "", "Sequence");
+tocTab[tocTab.length] = new Array("1.6.9:10", "", "«boundary» PantallaReserva", "EARoot/EA1/EA6/EA9/EA151.htm", "57.png", "256", "0", "", "Sequence");
+tocTab[tocTab.length] = new Array("1.6.9:11", "", "ReservaPagada", "EARoot/EA1/EA6/EA9/EA152.htm", "101.png", "255", "0", "", "InteractionFragment");

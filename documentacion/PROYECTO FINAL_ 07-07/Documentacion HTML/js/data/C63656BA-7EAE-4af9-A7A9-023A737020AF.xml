@@ -1,0 +1,8 @@
+tocTab[tocTab.length] = new Array("1.2:1", "", "cambiarContraseña", "EARoot/EA1/EA2/EA28.htm", "185.png", "18", "0", "", "Sequence diagram");
+tocTab[tocTab.length] = new Array("1.2:2", "", ": LoginService", "EARoot/EA1/EA2/EA30.htm", "25.png", "171", "0", "", "Object");
+tocTab[tocTab.length] = new Array("1.2:3", "", ": CalificacionService", "EARoot/EA1/EA2/EA31.htm", "25.png", "169", "0", "", "Object");
+tocTab[tocTab.length] = new Array("1.2:4", "", "«entity» : Comensal", "EARoot/EA1/EA2/EA32.htm", "25.png", "168", "0", "", "Object");
+tocTab[tocTab.length] = new Array("1.2:5", "", ": ComensalService", "EARoot/EA1/EA2/EA33.htm", "25.png", "167", "0", "", "Object");
+tocTab[tocTab.length] = new Array("1.2:6", "", "Comensal", "EARoot/EA1/EA2/EA34.htm", "6.png", "165", "0", "", "Actor");
+tocTab[tocTab.length] = new Array("1.2:7", "", "«boundary» Pantalla Mi Reserbar", "EARoot/EA1/EA2/EA35.htm", "57.png", "170", "0", "", "Sequence");
+tocTab[tocTab.length] = new Array("1.2:8", "", "«control» SecurtyControl", "EARoot/EA1/EA2/EA36.htm", "57.png", "166", "0", "", "Sequence");

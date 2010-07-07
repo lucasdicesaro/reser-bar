@@ -1,0 +1,13 @@
+tocTab[tocTab.length] = new Array("2.2.8:1", "", "Gestión de Restaurante", "EARoot/EA2/EA2/EA8/EA287.htm", "180.png", "11", "0", "", "Use Case diagram");
+tocTab[tocTab.length] = new Array("2.2.8:2", "", "13-Registrar usuario Administrador de Restaurante", "EARoot/EA2/EA2/EA8/EA289.htm", "7.png", "76", "0", "", "UseCase");
+tocTab[tocTab.length] = new Array("2.2.8:3", "", "14-Aceptar Invitación de Administrar", "EARoot/EA2/EA2/EA8/EA290.htm", "7.png", "81", "0", "", "UseCase");
+tocTab[tocTab.length] = new Array("2.2.8:4", "", "15-Admitir nuevos Administradores", "EARoot/EA2/EA2/EA8/EA291.htm", "7.png", "79", "0", "", "UseCase");
+tocTab[tocTab.length] = new Array("2.2.8:5", "", "30-Aceptar Medio de Pago", "EARoot/EA2/EA2/EA8/EA292.htm", "7.png", "77", "0", "", "UseCase");
+tocTab[tocTab.length] = new Array("2.2.8:6", "", "32-Crear Menú", "EARoot/EA2/EA2/EA8/EA293.htm", "7.png", "83", "0", "", "UseCase");
+tocTab[tocTab.length] = new Array("2.2.8:7", "", "33-Disponibilizar Evento ", "EARoot/EA2/EA2/EA8/EA294.htm", "7.png", "73", "0", "", "UseCase");
+tocTab[tocTab.length] = new Array("2.2.8:8", "", "34-Editar Menú", "EARoot/EA2/EA2/EA8/EA295.htm", "7.png", "78", "0", "", "UseCase");
+tocTab[tocTab.length] = new Array("2.2.8:9", "", "35-Editar Perfil Restaurante", "EARoot/EA2/EA2/EA8/EA296.htm", "7.png", "74", "0", "", "UseCase");
+tocTab[tocTab.length] = new Array("2.2.8:10", "", "36-Editar datos de Restaurante", "EARoot/EA2/EA2/EA8/EA297.htm", "7.png", "82", "0", "", "UseCase");
+tocTab[tocTab.length] = new Array("2.2.8:11", "", "37-Eliminar Menú", "EARoot/EA2/EA2/EA8/EA298.htm", "7.png", "80", "0", "", "UseCase");
+tocTab[tocTab.length] = new Array("2.2.8:12", "", "38-Registrar nuevo Restaurante", "EARoot/EA2/EA2/EA8/EA299.htm", "7.png", "84", "0", "", "UseCase");
+tocTab[tocTab.length] = new Array("2.2.8:13", "", "73-Invitación para Administrar Restaurante", "EARoot/EA2/EA2/EA8/EA300.htm", "7.png", "75", "0", "", "UseCase");

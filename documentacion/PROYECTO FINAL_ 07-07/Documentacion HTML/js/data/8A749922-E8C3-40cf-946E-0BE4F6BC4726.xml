@@ -1,0 +1,6 @@
+tocTab[tocTab.length] = new Array("1.6.6:1", "", "validarReserva", "EARoot/EA1/EA6/EA6/EA120.htm", "185.png", "27", "0", "", "Sequence diagram");
+tocTab[tocTab.length] = new Array("1.6.6:2", "", ": ReservaService", "EARoot/EA1/EA6/EA6/EA122.htm", "25.png", "242", "0", "", "Object");
+tocTab[tocTab.length] = new Array("1.6.6:3", "", "«entity» : Reserva", "EARoot/EA1/EA6/EA6/EA123.htm", "25.png", "240", "0", "", "Object");
+tocTab[tocTab.length] = new Array("1.6.6:4", "", ": ReservaDAO", "EARoot/EA1/EA6/EA6/EA124.htm", "25.png", "243", "0", "", "Object");
+tocTab[tocTab.length] = new Array("1.6.6:5", "", "Comensal", "EARoot/EA1/EA6/EA6/EA125.htm", "6.png", "239", "0", "", "Actor");
+tocTab[tocTab.length] = new Array("1.6.6:6", "", "«boundary» Pantalla Reserva", "EARoot/EA1/EA6/EA6/EA126.htm", "57.png", "241", "0", "", "Sequence");

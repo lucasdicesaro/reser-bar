@@ -1,0 +1,67 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>verReportes</title>
+<link href="../../../css/ea.css" rel="stylesheet" type="text/css" />
+<script>
+function initPage(src) {
+	if(parent==this&&(this.location+"").indexOf('EARoot')!=-1)
+		document.location=(this.location+"").substring(0,(this.location+"").indexOf('EARoot'))+"index"+(this.location+"").substring((this.location+"").lastIndexOf('.'))+"?goto="+((this.location+"").substring((this.location+"").indexOf('EARoot')+7,(this.location+"").lastIndexOf('.')).replace(/\//g,':').replace(/EA/g,""));
+	else
+		parent.initPage(src);
+}
+</script>
+</head>
+<body onload="initPage(this);" class="Content">
+<div class="PageBody">
+	
+<img src="EA64.png" usemap="#EA64" border="0" />
+
+<MAP NAME="EA64">
+<area shape="rect" coords="524,10,574,510" href="EA67.htm">
+<area shape="rect" coords="379,10,429,510" href="EA68.htm">
+<area shape="rect" coords="595,10,685,510" href="EA71.htm">
+<area shape="rect" coords="714,10,764,510" href="EA69.htm">
+<area shape="rect" coords="228,10,328,510" href="EA65.htm">
+<area shape="rect" coords="124,10,174,510" href="EA70.htm">
+<area shape="rect" coords="10,10,100,510" href="EA66.htm">
+</MAP>
+
+	<div class="ObjectTitle">verReportes : sequence diagram</div>
+	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Created:</td>
+			<td width="85%" class="ObjectDetailsValue">07/07/2010 17:59:17</td>
+		</tr>
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Modified:</td>
+			<td width="85%" class="ObjectDetailsValue">07/07/2010 18:10:28</td>
+		</tr>
+		<tr style="padding-top: 10px;">
+			<td width="15%" class="ObjectDetailsTopic"><img src="../../../images/plus03.gif" align="absmiddle" id="proj" onclick="parent.toggleData(this.id)" />Project:</td>
+			<td width="85%" class="ObjectDetailsValue"></td>			
+		</tr>
+		<tr id="proj00" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">Author:</td>
+			<td width="85%" class="ObjectDetailsValue">Maty</td>
+		</tr>
+		<tr id="proj01" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">Version:</td>
+			<td width="85%" class="ObjectDetailsValue">1.0</td>
+		</tr>
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic"><img src="../../../images/plus03.gif" align="absmiddle" id="adv" onclick="parent.toggleData(this.id)" />Advanced:</td>
+			<td width="85%" class="ObjectDetailsValue"></td>			
+		</tr>
+		<tr id="adv00" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">ID:</td>
+			<td width="85%" class="ObjectDetailsValue">{C6357589-B6CE-498a-959E-7681490EE862}</td>
+		</tr>
+	</table>
+	<div class="ObjectDetailsNotes">Este diagrama de secuencia representa de forma genérica los casos de uso:&lt;br /&gt;&lt;br /&gt;56-Ver Cancelaciones&lt;br /&gt;58-Ver Cantidad de visitas a restaurantes&lt;br /&gt;59-Ver Cantidad gastada por restaurante&lt;br /&gt;60-Ver Estadística&lt;br /&gt;61-Ver Facturación efectuada&lt;br /&gt;62-Ver Gasto promedio por Reserva&lt;br /&gt;63-Ver Menú más pedido&lt;br /&gt;64-Ver Promedio cobrado por reserva&lt;br /&gt;65-Ver Ponderaciones de Restaurante&lt;br /&gt;66-Ver Ponderaciones de Usuario&lt;br /&gt;67-Ver Ponderaciones realizadas&lt;br /&gt;68-Ver Promedio cobrado a Comensal&lt;br /&gt;69-Ver Promedio cobrado por menú&lt;br /&gt;&lt;br /&gt;Cada reporte es facilmente identificable en la capa Service mediante el patron:&lt;br /&gt;ver&lt;Tipo_De_Reporte&gt;&lt;br /&gt;Luego, se verifica que el AdminResto tenga los permisos necesarios para consultar dicho reporte, mediante la Seguridad por Funcion&lt;br /&gt;Por ultimo, luego de obtener todos los datos, se controla que los mismos esten disponibles para el usuario, mediante la Seguridad por Dato.</div>
+
+</div>
+ 
+</body>
+</html>

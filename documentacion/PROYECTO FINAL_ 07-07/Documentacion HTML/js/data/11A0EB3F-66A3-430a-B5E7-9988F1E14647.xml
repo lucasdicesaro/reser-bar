@@ -1,0 +1,16 @@
+tocTab[tocTab.length] = new Array("2.2.5:1", "", "Gestión de la Información", "EARoot/EA2/EA2/EA5/EA250.htm", "180.png", "8", "0", "", "Use Case diagram");
+tocTab[tocTab.length] = new Array("2.2.5:2", "", "54-Comparar Menúes", "EARoot/EA2/EA2/EA5/EA252.htm", "7.png", "49", "0", "", "UseCase");
+tocTab[tocTab.length] = new Array("2.2.5:3", "", "55-Comparar Restaurantes", "EARoot/EA2/EA2/EA5/EA253.htm", "7.png", "53", "0", "", "UseCase");
+tocTab[tocTab.length] = new Array("2.2.5:4", "", "56-Ver Cancelaciones", "EARoot/EA2/EA2/EA5/EA254.htm", "7.png", "55", "0", "", "UseCase");
+tocTab[tocTab.length] = new Array("2.2.5:5", "", "58-Ver Cantidad de visitas a restaurantes", "EARoot/EA2/EA2/EA5/EA255.htm", "7.png", "56", "0", "", "UseCase");
+tocTab[tocTab.length] = new Array("2.2.5:6", "", "59-Ver Cantidad gastada por restaurante", "EARoot/EA2/EA2/EA5/EA256.htm", "7.png", "47", "0", "", "UseCase");
+tocTab[tocTab.length] = new Array("2.2.5:7", "", "60-Ver Estadística", "EARoot/EA2/EA2/EA5/EA257.htm", "7.png", "50", "0", "", "UseCase");
+tocTab[tocTab.length] = new Array("2.2.5:8", "", "61-Ver Facturación efectuada", "EARoot/EA2/EA2/EA5/EA258.htm", "7.png", "42", "0", "", "UseCase");
+tocTab[tocTab.length] = new Array("2.2.5:9", "", "62-Ver Gasto promedio por Reserva", "EARoot/EA2/EA2/EA5/EA259.htm", "7.png", "44", "0", "", "UseCase");
+tocTab[tocTab.length] = new Array("2.2.5:10", "", "63-Ver Menú más pedido", "EARoot/EA2/EA2/EA5/EA260.htm", "7.png", "45", "0", "", "UseCase");
+tocTab[tocTab.length] = new Array("2.2.5:11", "", "64-Ver Promedio cobrado por reserva", "EARoot/EA2/EA2/EA5/EA261.htm", "7.png", "52", "0", "", "UseCase");
+tocTab[tocTab.length] = new Array("2.2.5:12", "", "65-Ver Ponderaciones de Restaurante", "EARoot/EA2/EA2/EA5/EA262.htm", "7.png", "48", "0", "", "UseCase");
+tocTab[tocTab.length] = new Array("2.2.5:13", "", "66-Ver Ponderaciones de Usuario", "EARoot/EA2/EA2/EA5/EA263.htm", "7.png", "43", "0", "", "UseCase");
+tocTab[tocTab.length] = new Array("2.2.5:14", "", "67-Ver Ponderaciones realizadas", "EARoot/EA2/EA2/EA5/EA264.htm", "7.png", "51", "0", "", "UseCase");
+tocTab[tocTab.length] = new Array("2.2.5:15", "", "68-Ver Promedio cobrado a Comensal", "EARoot/EA2/EA2/EA5/EA265.htm", "7.png", "46", "0", "", "UseCase");
+tocTab[tocTab.length] = new Array("2.2.5:16", "", "69-Ver Promedio cobrado por menú", "EARoot/EA2/EA2/EA5/EA266.htm", "7.png", "54", "0", "", "UseCase");

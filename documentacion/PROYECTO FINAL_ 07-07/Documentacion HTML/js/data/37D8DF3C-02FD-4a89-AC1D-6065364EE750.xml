@@ -1,0 +1,8 @@
+tocTab[tocTab.length] = new Array("1.5:1", "", "verReportes", "EARoot/EA1/EA5/EA63.htm", "185.png", "21", "0", "", "Sequence diagram");
+tocTab[tocTab.length] = new Array("1.5:2", "", ": RestoReportService", "EARoot/EA1/EA5/EA65.htm", "25.png", "198", "0", "", "Object");
+tocTab[tocTab.length] = new Array("1.5:3", "", "AdminResto", "EARoot/EA1/EA5/EA66.htm", "6.png", "194", "0", "", "Actor");
+tocTab[tocTab.length] = new Array("1.5:4", "", "«control» ControlPermisosXDato", "EARoot/EA1/EA5/EA67.htm", "57.png", "196", "0", "", "Sequence");
+tocTab[tocTab.length] = new Array("1.5:5", "", "«control» ControlPermisosXUsuario", "EARoot/EA1/EA5/EA68.htm", "57.png", "195", "0", "", "Sequence");
+tocTab[tocTab.length] = new Array("1.5:6", "", "«entity» EntidadGenerica", "EARoot/EA1/EA5/EA69.htm", "57.png", "200", "0", "", "Sequence");
+tocTab[tocTab.length] = new Array("1.5:7", "", "«boundary» PantallaReportes", "EARoot/EA1/EA5/EA70.htm", "57.png", "197", "0", "", "Sequence");
+tocTab[tocTab.length] = new Array("1.5:8", "", "RestoReportDAO", "EARoot/EA1/EA5/EA71.htm", "57.png", "199", "0", "", "Sequence");

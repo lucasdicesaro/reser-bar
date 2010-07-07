@@ -1,0 +1,6 @@
+tocTab[tocTab.length] = new Array("1.6.3:1", "", "seleccionarEvento", "EARoot/EA1/EA6/EA3/EA97.htm", "185.png", "24", "0", "", "Sequence diagram");
+tocTab[tocTab.length] = new Array("1.6.3:2", "", ": EventoDAO", "EARoot/EA1/EA6/EA3/EA99.htm", "25.png", "223", "0", "", "Object");
+tocTab[tocTab.length] = new Array("1.6.3:3", "", ": EventoService", "EARoot/EA1/EA6/EA3/EA100.htm", "25.png", "226", "0", "", "Object");
+tocTab[tocTab.length] = new Array("1.6.3:4", "", "«entity» : Evento", "EARoot/EA1/EA6/EA3/EA101.htm", "25.png", "225", "0", "", "Object");
+tocTab[tocTab.length] = new Array("1.6.3:5", "", "Comensal", "EARoot/EA1/EA6/EA3/EA102.htm", "6.png", "222", "0", "", "Actor");
+tocTab[tocTab.length] = new Array("1.6.3:6", "", "«boundary» PantallaReserva", "EARoot/EA1/EA6/EA3/EA103.htm", "57.png", "224", "0", "", "Sequence");
