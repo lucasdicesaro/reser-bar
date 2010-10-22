@@ -1,0 +1,19 @@
+<html>
+<body>
+	<div>
+		Estimado ${username},<br>
+		${userinviting} te ha invitado a ser administrador de su restaurante (${restname}).
+		Para visualizar los datos del usuario que lo est&aacute; invitando ingrese a la siguiente referencia: <br>
+		<a href="${link}">${link}</a>.
+		<br>
+		Tambi&eacute;n, desde la referencia que se adjunta a continuaci&oacute;n usted podr&aacute; Aceptar o 
+		Rechazar la invitaci&oacute;n, elegir el men&uacute; que m&aacute;s le guste y pagar:
+		<br>
+		<a href="${link}">${link}</a>.
+	</div>
+	<div>
+		Lo saluda atentamente, 
+		Equipo de ReserBar
+	</div>
+</body>
+</html>

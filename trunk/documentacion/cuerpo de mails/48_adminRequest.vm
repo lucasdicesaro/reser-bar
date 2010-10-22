@@ -1,0 +1,17 @@
+<html>
+<body>
+	<div>
+		Estimado ${adminResto},<br>
+		${userrequesting} ha requerido ser administrador de ${restname} (actualmente administrado por usted).
+		Para visualizar los datos del usuario y Aceptar o Rechazar el requerimiento ingrese a la siguiente referencia:
+		<br>
+		<a href="${link}">${link}</a>.
+		<br>
+		<br>
+	</div>
+	<div>
+		Lo saluda atentamente, 
+		Equipo de ReserBar
+	</div>
+</body>
+</html>

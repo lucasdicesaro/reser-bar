@@ -1,0 +1,12 @@
+06 Correo de registración				newUser
+21 correo de invitación a evento Rechazada		invitationDeclined
+46 Correo Invitación de Administrador			adminInvitation
+47 Correo de Cancelación de Reserva			bookCancelation_ADM / bookCancelation_USR
+48 Correo Solicitud de Administrar Restaurante		adminRequest
+49 Correo de Invitación a Evento			bookInvitation
+50 Correo de Notificiación de Nueva Reserva		newBook	
+51 Correo de Nueva Reserva efectuada			bookPaid
+52 Correo de Reiniciar Contraseña			unlockPassword
+53 Enviar Correo					NO HAY
+
+53: Únicamente con fines de diseño, no tiene descripción.

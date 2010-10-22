@@ -1,0 +1,15 @@
+<html>
+<body>
+	<div>
+		Estimado ${adminResto},<br> Se ha efectuado una nueva reserva para su restaurante (ID: ${reservaId}).
+		Se deber&aacute; aceptar la misma previo a ser abonada: Para acceder ingresar a la siguiente referencia: <br>
+		<a href="${link}">${link}</a>.
+		<br>
+		<br>
+	</div>
+	<div>
+		Lo saluda atentamente, 
+		Equipo de ReserBar
+	</div>
+</body>
+</html>

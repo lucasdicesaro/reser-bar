@@ -1,0 +1,16 @@
+<html>
+<body>
+	<div>
+		Estimado ${username},<br>
+		${userdeclined} ha rechazado su invitaci&oacute;n (ID: ${reservaId}). Desde la referencia que se adjunta
+		usted podr&aacute; realizar modificaciones a la reserva, as&iacute; como invitar m&aacute;s gente: <br>
+		<a href="${link}">${link}</a>.
+		<br>
+		<br>
+	</div>
+	<div>
+		Lo saluda atentamente, 
+		Equipo de ReserBar
+	</div>
+</body>
+</html>
