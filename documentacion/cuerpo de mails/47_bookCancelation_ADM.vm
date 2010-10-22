@@ -1,0 +1,17 @@
+<html>
+<body>
+	<div>
+		Estimado ${adminResto},<br>
+		${cancelinguser} ha cancelado la reserva que hab&iacute;a efectuado (ID: ${reservaId}).
+		Para visualizar los datos de la misma y ponderar al usuario (o usuarios)ingrese a la siguiente referencia:
+		<br>
+		<a href="${link}">${link}</a>.
+		<br>
+		<br>
+	</div>
+	<div>
+		Lo saluda atentamente, 
+		Equipo de ReserBar
+	</div>
+</body>
+</html>

@@ -1,0 +1,20 @@
+<html>
+<body>
+	<div>
+		Estimado ${username},<br> 
+		Este correo nos ayudar&aacute; a corroborar que usted es ${username} y podr&aacute; finalizar su 
+		registraci&oacute;n a ${reserbar}.<br><br>
+		¡Solo te falta un click ,${username}!<br>
+		Para comenzar a realizar nuevas reservas o para sumarte a otras a las que te invitan tus amigos 
+		hac&eacute; clic en la siguiente referencia<br>
+		<a href="${link}">${link}</a>.
+		<br>
+		Esto verificar&aacute; que tu e-mail est&aacute; funcionando!
+		<br>
+	</div>
+	<div>
+		Lo saluda atentamente, 
+		Equipo de ReserBar
+	</div>
+</body>
+</html>
