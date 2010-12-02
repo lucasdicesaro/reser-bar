@@ -1,0 +1,20 @@
+<html>
+<body>
+	<div>
+		Estimado ${username},<br>
+		${usercreator} te ha invitado a una nueva reserva! (ID: ${reservaId}). 
+<br>
+${usercreator} ha elegido tu menú y ya lo ha abonado.
+<br>
+Desde la referencia que se adjunta usted podr&aacute; Aceptar o Rechazar la invitaci&oacute;n, elegir el men&uacute; que
+		m&aacute;s le guste y pagar la misma: <br>
+		<a href="${link}">${link}</a>.
+		<br>
+		<br>
+	</div>
+	<div>
+		Lo saluda atentamente, 
+		Equipo de ReserBar
+	</div>
+</body>
+</html>
