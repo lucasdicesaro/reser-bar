@@ -6,8 +6,7 @@
 <br>
 ${usercreator} ha elegido tu menú y ya lo ha abonado.
 <br>
-Desde la referencia que se adjunta usted podr&aacute; Aceptar o Rechazar la invitaci&oacute;n, elegir el men&uacute; que
-		m&aacute;s le guste y pagar la misma: <br>
+Desde la referencia que se adjunta usted podr&aacute; visualizar la invitaci&oacute;n,<br>
 		<a href="${link}">${link}</a>.
 		<br>
 		<br>
