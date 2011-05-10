@@ -1,0 +1,153 @@
+/*
+Template Name: Darkness
+File: Navigation CSS
+Author: OS Templates
+Author URI: http://www.os-templates.com/
+Licence: <a href="http://creativecommons.org/licenses/by-sa/3.0/">Creative Commons Attribution-Share Alike 3.0 Unported License</a>
+*/
+
+#header #topnav{
+	display:block;
+	float:right;
+	margin:30px 20px 0px 0px;
+	padding:0;
+	font-size:13px;
+	font-family:Arial, Helvetica, sans-serif;
+	text-align:right;
+	background:transparent;
+	width:560px;
+	height:35px;
+	}
+	
+#header ul{
+	margin:0;
+	padding:0;
+	list-style:none;
+	}
+
+#header li{
+	display:inline;
+	margin:0px;
+	}
+
+#header li a:link, #header li a:visited, #header li a:hover{
+	margin:0;
+	padding:10px;
+	color:#FFFFFF;
+	border-top:1px solid #666666;
+	border-left:1px solid #666666;
+	border-right:1px solid #666666;
+	/* background-color:#232323; */
+	}
+
+#header li a:hover, #header li.active a{
+	color:#FDC609;
+	background-color:#333333;
+	border-bottom-color:#FDC609;
+	display:inline-block;
+	}
+
+#header #topnav li.last{
+	margin-right:0;
+	}
+
+/* ----------------------------------------------Column Navigation-------------------------------------*/
+
+#column .subnav{
+	display:block;
+	width:230px;
+	padding:10px 10px;
+	margin-bottom:30px;}
+#content2 {
+	margin:0px 30px;
+	padding:20px 0px;
+}
+#content2 .subnav{
+	display:block;
+	padding:10px 10px;
+	margin:10px auto 10px;
+	}
+
+#content2 .subnav .filtro_list  {
+	margin:5px 0px;
+	background: #E9EBEE;
+	padding:4px;
+	}
+input,  textarea {
+	font-size:12px;
+	line-height:16px;
+	font-family:Arial, Helvetica, sans-serif;
+	padding:2px;
+	} 
+#content2 .subnav .form_interior .filtro_list {
+	padding:0px;
+	float:left;
+	width:180px;
+	}	
+#content2 .subnav .filtro_list .input {
+	font-size:11px;
+	}	
+
+#content2 .subnav .filtro_list label  {
+	width:200px;
+	display:inline-block;
+	text-align:right;
+	margin:0px 5px 0px 0px;
+	vertical-align:top;
+	line-height:22px;
+	height:22px;
+	}	
+	
+#content2 .subnav .filtro_list .interior {
+	 text-align:left;
+	 width:150px;
+}
+#content2 .subnav .filtro_list input.interior {
+	 width:auto;
+	 text-align:left;
+}
+
+#column .subnav h2 , #content2 .subnav h2 {
+	margin:5px 0 5px 0;
+	padding:0 0 2px 0;
+	font-size:12px;
+	line-height:18px;
+	font-weight:bold;
+	font-family:Arial,   Tahoma;
+	color:#FDC609;
+	border-bottom:1px dashed #FEE079;
+}
+
+#column .subnav ul{
+	margin:0;
+	padding:0;
+	list-style:none;
+	}
+
+#column .subnav li{
+	margin:0 0 3px 0;
+	padding:0;
+	}
+
+#column .subnav ul ul, #column .subnav ul ul ul, #column .subnav ul ul ul ul, #column .subnav ul ul ul ul ul{border-top:none; padding-top:0;}
+
+#column .subnav a{
+	display:block;
+	margin:0;
+	padding:5px 10px 5px 20px;
+	color:#666666;
+	background-image:url("../images/yellow_file.gif");
+	background-position:10px center;
+	background-repeat:no-repeat;
+	background-color:#FFFFFF;
+	text-decoration:none;
+	border-bottom:1px dotted #666666;
+	}
+
+#column .subnav a:hover{color:#FDC609; background-color:#161616;}
+
+#column .subnav ul ul a, #column .subnav ul ul ul a, #column .subnav ul ul ul ul a, #column .subnav ul ul ul ul ul a{background:url(../images/white_file.gif) no-repeat #FFFFFF;}
+#column .subnav ul ul a{padding-left:40px; background-position:30px center;}
+#column .subnav ul ul ul a{padding-left:50px; background-position:40px center;}
+#column .subnav ul ul ul ul a{padding-left:60px; background-position:50px center;}
+#column .subnav ul ul ul ul ul a{padding-left:70px; background-position:60px center;}
